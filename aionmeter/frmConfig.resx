@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkWindowOnTop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWindowOnTop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkWindowOnTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="chkWindowOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="chkWindowOnTop.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkWindowOnTop.Text" xml:space="preserve">
+    <value>Window On-Top</value>
+  </data>
+  <data name="&gt;&gt;chkWindowOnTop.Name" xml:space="preserve">
+    <value>chkWindowOnTop</value>
+  </data>
+  <data name="&gt;&gt;chkWindowOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWindowOnTop.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;chkWindowOnTop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="combobox_language.Items" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="combobox_language.Items1" xml:space="preserve">
+    <value>fr-FR</value>
+  </data>
+  <data name="combobox_language.Items2" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="combobox_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="combobox_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 21</value>
+  </data>
+  <data name="combobox_language.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;combobox_language.Name" xml:space="preserve">
+    <value>combobox_language</value>
+  </data>
+  <data name="&gt;&gt;combobox_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combobox_language.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;combobox_language.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 4</value>
+  </data>
+  <data name="cmdBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="cmdBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdBrowse.Text" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowse.Name" xml:space="preserve">
+    <value>cmdBrowse</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowse.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>AION Path:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_aion_path.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="txt_aion_path.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
+  <data name="txt_aion_path.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_aion_path.Name" xml:space="preserve">
+    <value>txt_aion_path</value>
+  </data>
+  <data name="&gt;&gt;txt_aion_path.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_aion_path.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;txt_aion_path.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 158</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_scan_previos_session.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_scan_previos_session.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_scan_previos_session.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_scan_previos_session.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="chk_scan_previos_session.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 17</value>
+  </data>
+  <data name="chk_scan_previos_session.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chk_scan_previos_session.Text" xml:space="preserve">
+    <value>Scan Previous Session On Startup (Recommeded)</value>
+  </data>
+  <data name="&gt;&gt;chk_scan_previos_session.Name" xml:space="preserve">
+    <value>chk_scan_previos_session</value>
+  </data>
+  <data name="&gt;&gt;chk_scan_previos_session.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_scan_previos_session.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;chk_scan_previos_session.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 158</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 124</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Window Opacity</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDown_windowopacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 122</value>
+  </data>
+  <data name="numericUpDown_windowopacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="numericUpDown_windowopacity.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_windowopacity.Name" xml:space="preserve">
+    <value>numericUpDown_windowopacity</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_windowopacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_windowopacity.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_windowopacity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkBorderlessWindow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBorderlessWindow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkBorderlessWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 99</value>
+  </data>
+  <data name="chkBorderlessWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="chkBorderlessWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chkBorderlessWindow.Text" xml:space="preserve">
+    <value>Borderless window</value>
+  </data>
+  <data name="&gt;&gt;chkBorderlessWindow.Name" xml:space="preserve">
+    <value>chkBorderlessWindow</value>
+  </data>
+  <data name="&gt;&gt;chkBorderlessWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBorderlessWindow.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;chkBorderlessWindow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Texture:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_select_color.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_select_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 28</value>
+  </data>
+  <data name="btn_select_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btn_select_color.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_select_color.Text" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="&gt;&gt;btn_select_color.Name" xml:space="preserve">
+    <value>btn_select_color</value>
+  </data>
+  <data name="&gt;&gt;btn_select_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_select_color.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;btn_select_color.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_color.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 31</value>
+  </data>
+  <data name="lbl_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="lbl_color.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_color.Text" xml:space="preserve">
+    <value>Sample Text</value>
+  </data>
+  <data name="&gt;&gt;lbl_color.Name" xml:space="preserve">
+    <value>lbl_color</value>
+  </data>
+  <data name="&gt;&gt;lbl_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_color.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;lbl_color.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Text Color:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_font.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 7</value>
+  </data>
+  <data name="lbl_font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="lbl_font.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_font.Name" xml:space="preserve">
+    <value>lbl_font</value>
+  </data>
+  <data name="&gt;&gt;lbl_font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_font.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;lbl_font.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_select_font.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_select_font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 4</value>
+  </data>
+  <data name="btn_select_font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btn_select_font.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_select_font.Text" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="&gt;&gt;btn_select_font.Name" xml:space="preserve">
+    <value>btn_select_font</value>
+  </data>
+  <data name="&gt;&gt;btn_select_font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_select_font.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;btn_select_font.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Font:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="combobox_textures.ItemHeight" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="combobox_textures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 54</value>
+  </data>
+  <data name="combobox_textures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 39</value>
+  </data>
+  <data name="combobox_textures.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;combobox_textures.Name" xml:space="preserve">
+    <value>combobox_textures</value>
+  </data>
+  <data name="&gt;&gt;combobox_textures.Type" xml:space="preserve">
+    <value>AIONMeter.ComboBoxEx, aionmeter, Version=0.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;combobox_textures.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;combobox_textures.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 158</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 184</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 190</value>
+  </data>
+  <data name="cmdOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
+    <value>cmdOK</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 190</value>
+  </data>
+  <data name="cmdCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
+    <value>cmdCancel</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="fontDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 17</value>
+  </metadata>
+  <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>289, 17</value>
+  </metadata>
+  <data name="cmdApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 190</value>
+  </data>
+  <data name="cmdApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdApply.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Name" xml:space="preserve">
+    <value>cmdApply</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>385, 216</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAAAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAM2bMBUKMzh9Aks04QY7ITz6KyGI+ishvPYnGfTqHxX86g8N/OIDBfzZ8vX80ert/NHm6djJ0
+        tmwvc7JdMHCxSyptrzYqZqoeKlWqBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB/
+        vwRKpN0tS5/YYlOm25BjseO5arbm32+76vxzwO7/dcTx/3bG9f93yPb/eMf3/3jG+P93w/f/dL70/3K5
+        8v9vtO//bK/t/2mo6P9loeT/YZre/12T2P9ZjdL/VofM/z12uf0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/
+        fwJOp+I0V67me2297Lt6xe/0gs71/4jW/P+F2P//etT//3DQ//9nzP//Ysr//2HI/v9fxfz/XsL7/1y+
+        +f9auff/WLT0/1Wv8f9Sqe7/T6Pr/0yd6P9IleT/RY/h/0GH3f89f9n/OXbV/zty0v9OgMX/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABVbLqPGW97pd+yvHnjtb4/5Tf/v+J2///etb//3PS/v9v0P7/bM/+/2jN/v9ly/7/Ysn+/1/I
+        /v9exv3/XcP8/1zA+v9avPj/WLf2/1Wy9P9SrfH/UKfu/02i6/9Km+f/RpTk/0ON4P8/hd3/O33Z/zp3
+        1v88ctL/ToDF/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFW//wxfvfFwgM3025bc+v+c5P//it3+/37Y/f961v3/d9T9/3PS/f9w0P3/bc79/2nN
+        /f9my/3/Y8n9/1/I/f9dx/3/XMX8/1vC+/9Zvvr/WLv4/1a29f9TsfP/UKzw/06m7f9Loer/SJrn/0WT
+        5P9BjOD/PoTc/z1+2f88eNb/PHLS/06Axf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAVcb/CWfF93yN1/rvpef+/5fj/v+H3P7/g9r9/3/Y/f971/3/eNX9/3XT
+        /f9x0f3/bs/9/2vN/f9nzP3/ZMr9/2HI/f9dxv3/W8X9/1rD/P9ZwPv/WL36/1a5+P9UtfX/UrDz/0+r
+        8P9Mpe3/SqDq/0aZ5/9DkuP/QIvf/z+F3f9AgNr/PHjW/zxy0v9OgMX/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYMT4SonW+uGr6v7/mOT+/4ve/f+H3f3/hNv9/4DZ
+        /f991/3/edb9/3bU/f9z0v3/b9D9/2zO/f9pzP3/Zsv9/2LJ/f9fx/3/XMb9/1rE/f9Zw/z/WMD7/1a8
+        +v9UuPj/UrT1/1Cv8/9OqvD/S6Xt/0mf6v9FmOf/QpHj/0KM4P9Eid7/QIDa/zx41v88ctL/ToDF/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABb879h6bm/v6k6f7/j+H+/4zf
+        /f+J3v3/htz9/4La/f9/2P3/e9b9/3jV/f900/3/cdH9/27P/f9rzf3/aMv9/2XK/f9hyP3/Xsf9/1vF
+        /f9Zw/3/WML8/1e/+/9Vu/n/U7j3/1Kz9f9Qr/P/Tarw/0qk7f9Inur/RJjn/0SS5P9HkOH/RIne/0CA
+        2v88eNb/PHLS/06Axf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmzP8KddD9lLHt
+        //+b5/3/keL8/47h/P+L3/z/iN38/4Tb/P+B2fz/fdf8/3rW/P931Pz/c9L8/3DQ/P9tz/z/as38/2fL
+        /P9kyfz/YMj8/17G/P9axPz/WMP8/1fB+/9Wvvr/VLv5/1O39/9Rs/T/T67y/0yp7/9KpO3/R57q/0aY
+        5/9Kl+X/SJDh/0SJ3v9AgNr/PHjW/zxy0v9OgMX/AAAAAAAAAADcpWpBvHg6xphLDKeVRwiEkkUIYJhK
+        CjSLRgALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAeNP8da3s//+c5/3/lOP8/5Di/P+N4Pz/it/8/4fd/P+E2/z/gNn8/33X/P951fz/dtT8/3PS
+        /P9w0Pz/bM78/2nM/P9myvz/Y8n8/2DI/P9dxvz/WsT8/1jC/P9Xwfv/Vb76/1O6+f9St/f/ULP0/06u
+        8v9Mqe//SaTt/0if6/9Onun/S5fl/0iQ4f9Eid7/QIDa/zx41v88ctL/ToDF/wAAAADepW028MWQ8M+I
+        R/+4Xxf/wG8t/79zNP+9czf/uG81/LNpLdWsXiCdplkZZKpdFyEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAJjh/+Gp7P7/luX8/5Pj/P+Q4fz/jOD8/4ne/P+G3Pz/g9r8/4DZ
+        /P981/z/edX8/3XU/P9y0vz/b9D8/2zO/P9ozPz/Zsr8/2LI/P9fx/z/XMX8/1nD/P9Xwvz/VsH7/1W+
+        +v9Tuvn/Ubb3/1Cy9P9OrvL/S6nv/0qk7f9QpOz/Tp/p/0uX5f9IkOH/RIne/0CA2v88eNb/PHLS/06A
+        xf/epW0278KN8P/fsP/OhUP/slEE/7VUCP+4WAz/vFwQ/8BjGf/HcCr/zX08/86CRf/Hf0T/v3Q527Zn
+        Ko2xZCQ4AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs6/78nej9/5Xl/P+T4/z/j+H8/4zg
+        /P+I3vz/htz8/4La/P9+2Pz/fNb8/3jV/P911Pz/cdL8/2/Q/P9szvz/aMz8/2XK/P9iyPz/X8f8/1zF
+        /P9Zw/z/V8L9/1jB/P9ZwPv/Wb76/1m7+P9ZuPb/WLX0/1ew8v9Pp+7/Uqbs/06f6f9Ll+X/SJDh/0SJ
+        3v9AgNr/PHjW/zxy0v9OgMX/7b+J6v7drf/+3a3/zYRC/7JQBP+1VAj/uFgM/7xcEP+/YBX/wWQY/8Vn
+        Hf/IaiH/zHAn/9J9Ov/Yik3/04lO/8h9QNvAcC9yzHczDwAAAAAAAAAAAAAAAAAAAAAAAAAAsOz//qDp
+        /f+V5Pz/kuP8/4/h/P+M4Pz/iN78/4bc/P+C2vz/ftj8/3vW/P941Pz/dNT8/3HS/P9v0P3/btD9/23P
+        /f9szv7/a87+/2nO/v9ozf//Zs3//2bM//9ly/7/Y8j9/2HE/P9fwPr/Xbz3/1u39f9YsvL/Tqfu/1Km
+        7P9On+n/S5fl/0iQ4f9Eid7/QIDa/zx41v88ctL/ToDF//7cqv/+3Kv//tyr/82DQf+xUAT/tFMH/7hX
+        DP+7WxD/vl8U/8FjGP/FZh3/yGoh/8tuJf/PcSn/0nUt/9Z6M//ciEb/3pJW/9WITO/KeDl9xnE5CQAA
+        AAAAAAAAAAAAALPu//6s7///leT8/5Li/P+P4fz/jOD8/4ne/f+J3v3/iN39/4jd/v+H3P7/htz+/4Xc
+        //+E3P//g9v//37Z//961///d9X//3PT//9v0v//eNT//4LX//+L2f//lNv//5rc/v+c2/7/m9r9/5vZ
+        /P+X1/z/kNP7/4jN+f+JzPj/gsj3/3i/9P9wuPH/Za7u/1qi6f9PleT/UI7f/06FyP/+2qn//tqp//7a
+        qf/NgkD/sU8E/7RTB/+3Vwz/u1sP/75eFP/BYhj/xWUd/8hpIP/LbST/z3Ep/9J0LP/VeDH/2Xw1/9yA
+        Of/hikf/5JZY/9eJSd7Mdzc8AAAAAAAAAAC07v/+tfP//6ft//+j6/7/o+v//6Lr//+g6v//nej//5nm
+        //+V5P//kuL//47g//+K3///h93//5Pf//+m5f//tur//77t///D8P//yfP//8Hy//+27///ruz//6Tp
+        //+d5///luT//5Lj//+P4f//jN///4je//971v7/gtv//37Z//972P//edb//3fV//910///cdL//2nK
+        +v+Tvsr//tmn//7Zp//+2af/zYJA/7FPBP+0Ugf/t1YM/7taD/++XhT/wWIY/8VlHP/IaCD/y2wk/89w
+        KP/SdCz/1Xgw/9l8NP/cfzn/34Q9/+KHQf/olFL/4ZJT+dSCPloAAAAAtO7//rXz//+v8f//rO///6jt
+        //+k7P//oOr//53o//+Z5v//leT//6Dm//+67f//yfP//9T5///P+f//wPb//7X0//+x8v//rfD//6ru
+        //+m7P//ouv//5/p//+b5///mOX//5Xk//+R4v//juD//4rf//+H3f//edb+/4Da//992P//etf//3fV
+        //901P//cdP//2zN+/+Nv8//+9em//7Ypf/+2KX//til/82BP/+xTgP/tFIH/7dWDP+7Wg//vl0U/8Fh
+        GP/FZBz/yGgg/8tsI//PcCj/0nQs/9V3MP/ZezT/3H44/9+DPP/ih0H/5opE/+qST//llFT61YJBN7Tu
+        //618///r/H//6zv//+o7f//pOz//6Dq//+p6///xfP//9f6///Y/v//yPz//8L6//+++P//u/f//7f1
+        //+z8///r/H//6zv//+o7v//pez//6Hq//+e6P//mub//5fl//+T4///kOH//4zg//+J3v//htz//3jV
+        /v9/2f//fNj//3nW//921f//c9P//27O+/+Nv8//+9al//7XpP/+16T//tek//7XpP/NgT//sU4D/7RS
+        B/+3Vgv/u1kP/75dFP/BYRf/xWQc/8hoH//LbCP/z28n/9JzK//VdzD/2Xs0/9x+OP/fgjz/4oZA/+aK
+        RP/pjkj/7phV/9+NSsC07v/+tfP//6/x//+s7///qO3//7rx///S+f//2f///83////M////yP3//8T7
+        ///B+v//vfj//7n2//+19P//svL//67w//+q7///p+3//6Pr//+g6f//nOf//5nm//+V5P//kuL//47h
+        //+L3///iN3//4Xc//931f7/ftn//3vX//941v//ddT//3DQ/P+GvdH/+Nal//7Xo//+16P//tej//7X
+        o//+16P/zYA+/7FOA/+0Ugf/t1UL/7tZD/++XRT/wWEX/8VkHP/IaB//y2sj/89vJ//Scyv/1Xcw/9l6
+        M//cfTj/34I7/+KGQP/miUP/6Y1I/+2STv/mk1H8tO7//rXz//+v8f//uPL//9P7///T////zP///8z/
+        ///M////yv7//8f9///D+///v/n//7v3//+39f//tPP//7Dx//+s8P//qe7//6Xs//+i6v//nun//5vn
+        //+X5f//lOP//5Di//+N4P//it7//4fd//+D2///dtT+/3zY//951///dtX//3HQ/P+HvtL/+NWk//7W
+        ov/+1qL//tai//7Wov/+1qL//tai/82APv+xTgP/tFEH/7dVC/+7WQ//vl0U/8FhF//FZBz/yGcf/8tr
+        I//Pbyf/0nMr/9V2L//ZejP/3H03/9+CO//ihT//5olD/+mNSP/skkz/5pRS/7Tu//618///xPf//9P/
+        ///M////zP///8z////M////zP///8n+///F/P//wfr//734//+69v//tvT//7Lz//+v8f//q+///6ft
+        //+k6///oOr//53o//+Z5v//luT//5Lj//+P4f//jN///4je//+F3P//gtv//3XT/v972P//eNb//3TS
+        /f+Av9j/99mr//3Wov/91qL//dai//3Wov/91qL//dai//3Wov/MgD7/sU0D/7RRB/+3VQv/u1kP/75d
+        FP/BYBf/xWMb/8hnH//LayP/z28n/9JyK//Vdi//2Xoz/9x9N//fgTv/4oU//+WJQ//ojUf/7JJN/+aX
+        Vf+17//+w/n//87////M////zP///8z////M////zP///8v////H/f//xPv//8D5//+89///uPX//7T0
+        //+x8v//rfD//6ru//+m7P//ouv//5/p//+b5///mOX//5Xk//+R4v//juD//4rf//+H3f//hNz//4Da
+        //900/7/etf//3XT/f94tcr/9t+3///itf/+3Kv//dah//3Vof/91aH//dWh//3Vof/916f/88qk/+Wq
+        ev/cm2f/1IxU/8t4OP/DZh//wWAX/8VjG//IZx//y2sj/89uJ//Sciv/1XYv/9l6M//cfTf/34A7/+KF
+        P//liUP/6I1H/+2XU//mmFb/uvL//sz////M////zP///8z////M////zP///8z////K/v//xvz//8L6
+        //+++P//uvf//7f1//+z8///r/H//6zv//+o7f//pez//6Hq//+e6P//mub//5bl//+T4///kOH//4zg
+        //+J3v//htz//4Pb//9/2f//c9P+/3fU/f9Vusn/dqJH///itf//4rX//+K1///erv/+1qL//dWh//3V
+        of/916f/+9u6//e9hP/2tXj/9bFz//Wwc//1s3n/9baA/++td//lnGP/3I1Q/9J5Nf/Pbif/0nIr/9V2
+        L//ZejP/3Hw3/9+AO//ihT//5YpE/+qTTv/tmlX/5phW/7/4//7M////zP///8z////M////zP///8z/
+        ///M////yP3//8T7///B+v//vfj//7n2//+19P//svL//67w//+q7///p+3//6Pr//+g6f//nOf//5nm
+        //+V5P//kuL//47h//+L3///iN3//4Xc//+B2v//ftn//3TS/f9YvM7/LsJl/3KhO///4rX//+K1///i
+        tf//4rX//9+w//7Wof/916X//N28//i/h//3uHv/9rV4//Wxc//0rnD/9Kpr//OoZ//ypGP/8aFf//Ge
+        Xf/xo2X/7qBk/+WTVf/dhEL/2Xkz/9x8N//fgTv/44lD/+eRS//qlVD/7ZpV/+aYVv/A+f/+zP///8z/
+        ///M////zP///8z////M////yv7//8f9///D+///v/n//7v3//+39f//tPP//7Dx//+s8P//qe7//6Xs
+        //+i6v//nun//5vn//+X5f//lOP//5Di//+N4P//it7//4Pa/v981Pn/dc71/2/I8v9Yu87/L8Jm/yrD
+        Wf9yoTv//+K1///itf//4rX//+K1///itf//4bb//N69//nBi//3u37/97h7//a1d//1sXP/9K5w//Sq
+        a//zqGf/8qRj//GhX//xnVr/8JpW/++WUf/uk0//75hW/+6cXf/nk1L/4otF/+ONR//nkUv/6pVQ/+2a
+        Vf/mmFb/r/D988z////M////zP///8z////M////zP///8n+///F/P//wfr//734//+69v//tvT//7Lz
+        //+v8f//q+///6bs//+c5fz/kt74/4fW9P9/z/H/dcnp/2fF1v9cwcX/UL21/0W6ov8+upT/OryG/zW+
+        eP8wwGz/LMNe/yvDW/8qwln/cqE7///itf//4rX//+K1///itf//47j//ubI//vOnP/5wIf/97t+//e4
+        e//2tXf/9bFz//Sub//0qmv/86hn//KkY//xoV7/8Z1a//CaVv/wmFT/8JhU//CbV//wnFn/8ZxZ//Cg
+        X//qmVb/55JM/+qVUP/tmlX/5phW/5Ti/JSn6/v1zP///8z////M////zP///8v////A+f7/tPH8/6nq
+        +f+c4vb/kdvy/4LV5f9xz9P/Y8rC/1XFsv9JwaH/QcGR/zrAgf8zwHH/LsJj/yvDWv8rw1r/K8Na/yvD
+        Wv8rw1r/K8Na/yvDWv8rw1r/K8Na/yvDWv8rw1r/KsJY/3KgO///4rX//+K1///itf//47j//ubH//zS
+        ov/7zZn/+smU//i+hP/3uHv/9rV3//Wxc//0rm//9Kpr//OoaP/zp2f/86Zl//OkY//yo2H/8Z9c//Cc
+        Wf/wnFn/8JxZ//CcWf/wnFn/8JxZ//CdW//sl1P/7ZpV/+aYVv+H4f8Rf9PzQJvk+eGc4vjYk973u2XP
+        t/9YzLD/Tsqg/0bKkf9AyoP/Ocp1/zPLaf8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/Mstm/zHK
+        ZP8wyWP/L8hh/y3HYP8txl7/LMVd/yvEXP8rxFv/KsNb/yrDWv8qwlr/KsJa/ynBWP9yoDv//+K1///i
+        tf//47f//ufI//3UpP/70J3/+82Z//rKlf/5xpD/97yA//e6gP/3uH3/9rd7//a0eP/1snT/9K5w//Or
+        a//zp2b/8qNh//GfXP/wnFn/8JxZ//CcWf/wnFn/8JxZ//CcWf/wnFn/8JxZ/++bV//mmFb/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAmvkz/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8xymT/cqQ8///itf//47j//+fG//3XqP/806H/+9Cd//vNmf/6ypX/+caQ//i+g//4wIj/97yD//a5
+        fv/2tXn/9bJ0//SucP/zq2v/86dm//KjYf/xn1z/8JxZ//CcWf/wnFn/8JxZ//CcWf/wnFn/8JxZ//Cc
+        Wf/wnFn/5pdW/wAAAAAAAAAAAAAAAAAAAAAAAAAAJr5M/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8zy2f/M8tn/zPLZ/8zy2f/Mcpk/3KkPP//47f//+jH//7aqv/81qX//NOh//vQnf/7zZn/+sqV//nG
+        kP/4voP/+MCI//e8g//2uX7/9rV5//WydP/0rnD/86tr//OnZv/yo2H/8Z9c//CcWf/wnFn/8JxZ//Cc
+        Wf/wnFn/8JxZ//CcWf/wnFn/8JxZ/+SVVf8AAAAAAAAAAAAAAAAAAAAAAAAAACa+TP8zy2f/M8tn/zPL
+        Z/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/PdBv/0jTd/9zpj7//+fE//7crv/92aj//Nal//zT
+        of/70J3/+82Z//rKlf/5xpD/+L6D//jAiP/3vIP/9rl+//a1ef/1snT/9K5w//Ora//zp2b/8qNh//Gf
+        XP/wnFn/8JxZ//CcWf/wnFn/8JxZ//CcWf/wnFn/8JxZ//CcWf/jlFT/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAmvkz/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zPL
+        Z/8zy2f/Ncxp/0LRc/9Q133/Xt2J/2nik/9155z/fOyi/4Dxp/+E9av/h/iu/4D3qf919KH/Yd54/9q2
+        cf/92Kj//dmo//zWpf/806H/+9Cd//vNmf/6ypX/+caQ//i+g//4wIj/97yD//a5fv/2tXn/9bJ0//Su
+        cP/zq2v/86dm//KjYf/xn1z/8JxZ//CcWf/wnFn/8JxZ//CcWf/wnFn/8JxZ//CcWf/wnFn/3pBS0QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAJr5M/zPLZ/8zy2f/M8tn/zPLZ/8zy2f/M8tn/zjNa/9K03j/W9mE/2ve
+        kf985J3/iemn/5Pur/+Z9LT/oPq7/6L+vv+Y/rn/i/6w/33+qf9v/qD/Zv6a/2T9mf9i+5f/YPqW/173
+        k/9b9ZH/WfKO/1bvi/9b4n3/ybRp//zToP/81qX//NOh//vQnf/7zZn/+sqV//nGkP/4voP/+MCI//e8
+        g//2uX7/9rV5//WydP/0rnD/86tr//OnZv/yo2H/8Z9c//CcWf/wnFn/8JxZ//CcWf/wnFn/8JxZ//Cc
+        Wf/wnFn/6ZdW/9KJTFAAAAAAAAAAAAAAAAAAAAAAAAAAAEjMav934Jj/iuWl/5nrsP+q8bz/t/bF/8P8
+        zv/J/9L/wf/N/7n/x/+w/8L/pv+7/53/tv+X/rP/kf6w/4r+rP+E/qn/fP6m/3X+ov9u/p//Z/6b/2X+
+        mv9k/Zn/YvuX/2D6lv9e95P/W/WR/1nyjv9W74v/U+yI/1Pkf/+2tWX/+suX//zTof/70J3/+82Z//rK
+        lf/5xpD/+L6D//jAiP/3vIP/9rl+//a1ef/1snT/9K5w//Ora//zp2b/8qNh//GfXP/wnFn/8JxZ//Cc
+        Wf/wnFn/8JxZ//CcWf/wnFn/6ZdW/teKT3gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa1n5xmOyr9cb+
+        yv/G/8r/w//J/7//x/+7/8X/t//D/7L/wf+t/77/qP+8/6P/uf+d/7b/l/6z/5H+sP+K/qz/hP6p/3z+
+        pv91/qL/bv6f/2f+m/9l/pr/ZP2Z/2L7l/9g+pb/XveT/1v1kf9Z8o7/Vu+L/1PsiP9P6IT/S+R+/5y4
+        Yv/4w4z/+9Cd//vNmf/6ypX/+caQ//i+g//4wIj/97yD//a5fv/2tXn/9bJ0//SucP/zq2v/86dm//Kj
+        Yf/xn1z/8JxZ//CcWf/wnFn/8JxZ//CcWf/um1j/4ZJU6tOJTlIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFXZhBts4I6elu6q+bz9xP+//8f/u//F/7f/w/+y/8H/rf++/6j/vP+j/7n/nf+2/5f+
+        s/+R/rD/iv6s/4T+qf98/qb/df6i/27+n/9n/pv/Zf6a/2T9mf9i+5f/YPqW/173k/9b9ZH/WfKO/1bv
+        i/9T7Ij/T+iE/0zlgP9I4Xz/g71h//O6gf/7zZn/+sqV//nGkP/4voP/+MCI//e8g//2uX7/9rV5//Wy
+        dP/0rnD/86tr//OnZv/yo2H/8Z9c//CcWf/wnFn/8JxZ/+6aWP/jk1T114xPjsZ/RxIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFXZhBti24d/guac353zr/+z/sD/sv/B/63/
+        vv+o/7z/o/+5/53/tv+X/rP/kf6w/4r+rP+E/qn/fP6m/3X+ov9u/p//Z/6b/2X+mv9k/Zn/YvuX/2D6
+        lv9e95P/W/WR/1nyjv9W74v/U+yI/0/ohP9M5YD/SOF8/0TdeP9swmP/57J0//rKlf/5xpD/+L6E//jA
+        iP/3vIP/9rl+//a1ef/1snT/9K5w//Ora//zp2b/8qNh//GfXP/vm1j/55ZW/9+QUtbXi051yYZDEwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAFY1X03YdyGg3rnmMuI7qL9l/ev/6D+t/+d/7b/l/6z/5H+sP+K/qz/hP6p/3z+pv91/qL/bv6f/2f+
+        m/9l/pr/ZP2Z/2L7l/9g+pb/XveT/1v1kf9Z8o7/Vu+L/1PsiP9P6IT/TOWA/0jhfP9E3Xj/QNl0/1rG
+        Zf/ZrGr/+cWO//jAh//4wIj/97yD//a5fv/2tXn/9bJ0//SucP/yqWr/7aFg/+aYWfvgklPE1otQfdaL
+        SywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW9t/DlrWf0pe2YOAa+COsnHkk+B065j+ePCd/3r2
+        oP96/KP/df6i/27+n/9n/pv/Zf6a/2T9mf9i+5f/YPqW/173k/9b9ZH/WfKO/1bvi/9T7Ij/T+iE/0zl
+        gP9I4Xz/RN14/0DZdP881XD/Schl/8ioYv/3vob/97yE//O0ev/vrHD/66Nn/eWdYN3jllit245SetaL
+        T0TUf0AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAQL9qDFDPejBPy3ZUTst2ck7Nd49S1X2nUdl+vFLZf9FS2n7gUNx/70/bfvhO2n3/S9h7/0nV
+        eP9H03b/RNF0/0HOcf89ym32OsZp7TbAZN8xvGLOMLdeui2zW6U6qFKS3JVUheGRU2/fj1NQ4pFRLL9/
+        QAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////wAAA//////wAAAD/////wAAAAP////8A
+        AAAA/////AAAAAD////wAAAAAP///8AAAAAA////gAAAAADj//+AAAAAAMAf/wAAAAAAgAH/AAAAAAAA
+        AH8AAAAAAAAAHwAAAAAAAAAHAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAA
+        AAD4AAAAAAAAAPgAAAAAAAAA+AAAAAAAAAD4AAAAAAAAAPgAAAAAAAAB+AAAAAAAAAP8AAAAAAAAB/4A
+        AAAAAAAP/8AAAAAAAH//8AAAAAAD////AAAAAD/////+AAAP////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontDialog.Name" xml:space="preserve">
+    <value>fontDialog</value>
+  </data>
+  <data name="&gt;&gt;fontDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmConfig</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

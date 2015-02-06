@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50212BE5-80DA-46D2-9510-97A9919A64C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIONMeter</RootNamespace>
+    <AssemblyName>aionmeter</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>AIONMeter.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="DebugLog.cs" />
+    <Compile Include="FileWatcher.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfig.Designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetails.Designer.cs">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeter.Designer.cs">
+      <DependentUpon>frmMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSyncMacro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSyncMacro.Designer.cs">
+      <DependentUpon>frmSyncMacro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Group.cs" />
+    <Compile Include="LiveTracker.cs" />
+    <Compile Include="GraphEngine.cs" />
+    <Compile Include="LogWriter.cs" />
+    <Compile Include="Meter.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="OverTimeEffectTracker.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="Pet.cs" />
+    <Compile Include="PetTracker.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.tr.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.tr.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetails.resx">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetails.tr.resx">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeter.resx">
+      <DependentUpon>frmMeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeter.tr.resx">
+      <DependentUpon>frmMeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSyncMacro.resx">
+      <DependentUpon>frmSyncMacro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.fr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Textures.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Textures.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.fr.Designer.cs">
+      <DependentUpon>Resources.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Replay.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="Skills.cs" />
+    <Compile Include="StatusStripEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Textures.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Textures.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aionmeter_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aluminium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BantoBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bumps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charcoal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cilo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dabs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DarkBottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diagonal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fifths.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fourths.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamour7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glaze2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gloss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hatched.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Healbot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LiteStep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lyfe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Melit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MelitDark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimalist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Otravi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perl2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ruben.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Runes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skewed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smoothv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smudge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Striped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wisps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xeon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="piechart.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
