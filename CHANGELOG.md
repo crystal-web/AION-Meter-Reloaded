@@ -1,4 +1,5 @@
-[12.11.2009] v0.0.4.1 (r68)
+### [12.11.2009] v0.0.4.1 (r68)
+---------------------
 * When updated AIONMeter will correctly import settings from older versions
 * Implemented "Add Group Member" feature
 * Changed toolstrip icons
@@ -8,8 +9,8 @@
 * Fixed crashes when AIONMeter updater code is blocked by firewalls
 * Fixed a crash with configuration window
 
-
-[10.11.2009] v0.0.4.0 (r62)
+### [10.11.2009] v0.0.4.0 (r62)
+---------------------
 * Added basic DPS,HPS, burst-DPS and burst-HPS calculation support
 * Added improved localization support
 * Improved memory handling, decreased the memory footprint
@@ -20,8 +21,7 @@
 * Meter window will remember the last width and height
 * with next version upgrades, settings will no longer reset
 
-
-[09.11.2009] v0.0.3.0 (r48)
+### [09.11.2009] v0.0.3.0 (r48)
 ---------------------
 * Added HOT support
 * Fixed OVerTimeEffectTracker timing bug
@@ -31,8 +31,7 @@
 * Fixed replay bugs
 * Improved memory allocation / deallocation. Should NOT leak memory now
 
-
-[06.11.2009] v0.0.2.0 (r36)
+### [06.11.2009] v0.0.2.0 (r36)
 ---------------------
 * Improved AION path & chat.log handling 
 * AIONMeter will now also check registery for AION path
@@ -43,7 +42,7 @@
 * Improved Skill DB.
 
 
-[03.11.2009] v0.0.1.0 (r21)
+### [03.11.2009] v0.0.1.0 (r21)
 ---------------------
 * The very first release intented for internal testing.
 
