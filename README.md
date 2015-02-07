@@ -10,3 +10,14 @@ Reprise du projet AION-Meter https://code.google.com/p/aionmeter/ dans le but de
 * L'application ne s'occupe pas de créer le fichier system.ovr contenant la syntaxe g_chatlog = "1" activant le logging du tchat en jeu
 * Aucune purge du fichier Chat.log prévue dans l'application, pourquoi pas purger tout les X minutes/ligne ?
 * Pour fonctionner, l'application doit être lancé en administrateur, pourquoi ne pas le forcer ?
+
+
+## Soutenir le projet
+
+Vous pouvez soutenir le développement du projet;
+
+[![PayPayl donate button](https://img.shields.io/badge/paypal-donate-green.svg?style=plastic)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7ZYD4ZZG3GYH6 "Donate once-off to this project using Paypal")
+
+
+## Statut du developpement
+![Status](https://img.shields.io/badge/build-faild-red.svg?style=plastic)

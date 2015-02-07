@@ -39,11 +39,16 @@ namespace AIONMeter
 
             if (online_version.ToString() == "0.0.0.0") return; // if a version check returns 0.0.0.0, a firewall may be blocking our connection
 
-            if (current_version == online_version && (bool)verbose)
-                System.Windows.Forms.MessageBox.Show("You already use the latest version of the AIONMeter.", "Update Check", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information);
+            if (current_version == online_version && (bool)verbose){
+                System.Windows.Forms.MessageBox.Show("You already use the latest version of the AIONMeter-Reloaded.", "Update Check", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information);
+            }
             else if (current_version < online_version)
-                if (System.Windows.Forms.MessageBox.Show("There is a new AIONMeter version avaible for download! Would you like to download it now?", "Update Check", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
-                    System.Diagnostics.Process.Start("http://www.aionmeter.com/download");
+            {
+                if (System.Windows.Forms.MessageBox.Show("There is a new AIONMeter-Reloaded version avaible for download! Would you like to download it now?", "Update Check", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                {
+                    System.Diagnostics.Process.Start("https://github.com/crystal-web/AION-Meter-Reloaded/tree/master/Release");
+                }
+            }
         }
 
         private static Version get_update_info()
@@ -51,7 +56,7 @@ namespace AIONMeter
             Int32 major = 0, minor = 0, build = 0, revision = 0;
             try
             {
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.aionmeter.com/updates.txt");
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://raw.githubusercontent.com/crystal-web/AION-Meter-Reloaded/master/Release/updates.txt");
                 WebResponse response = request.GetResponse();
                 StreamReader web_reader = new StreamReader(response.GetResponseStream());
                 string line;

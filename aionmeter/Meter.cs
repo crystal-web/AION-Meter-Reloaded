@@ -44,6 +44,8 @@ namespace AIONMeter
             render_healing
         }
 
+        private LogWriter writer = LogWriter.Instance;
+
         public static Meter active_meter = null; // the active meter
 
         public MODE tracking_mode; // the parsing mode
@@ -188,7 +190,6 @@ namespace AIONMeter
         private void commit_action(string time, string who, Int32 amount, string target, string skill, bool critical)
         {
             who = who.Trim();
-            LogWriter writer = LogWriter.Instance;
             writer.WriteToLog("Meter.commit_action: " + time + " who:" + who + " amout:" + amount + " target:" + target + " skill:" + skill);
             
 
@@ -233,6 +234,7 @@ namespace AIONMeter
                             break;
                     }
                 }
+
                 try
                 {
                     foreach (Player player in group.members.Values) // calculate the statistics
@@ -277,10 +279,20 @@ namespace AIONMeter
                                 player.percent = (double)(player.healing * 100) / party_total;
                                 break;
                         }
-                        if (double.IsNaN(player.percent)) player.percent = 0; // if expression returns Not A Number just assign 0
+                        if (double.IsNaN(player.percent))
+                        {
+                            player.percent = 0; // if expression returns Not A Number just assign 0
+                        }
                     }
                 }
-                catch (Exception e) { } // ignore division by zero exception
+                catch (Exception e)
+                {
+                    writer.WriteToLog("Meter.calculate_statistics: " + e.Message);
+                } // ignore division by zero exception
+            }
+            else
+            {
+                writer.WriteToLog("Meter.calculate_statistics !(group != null && group.members.Count > 0)");
             }
         }
         #endregion

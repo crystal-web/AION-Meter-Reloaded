@@ -40,12 +40,18 @@ namespace AIONMeter
                 combobox_players.Items.Add(player.name);
             }
             if (combobox_players.Items.Count > 0)
+            {
                 combobox_players.SelectedIndex = 0;
+            }
         }
 
         private void load_meter_data()
         {
             listView.Items.Clear();
+
+            
+
+
             string name = combobox_players.Items[combobox_players.SelectedIndex].ToString();
             Player player = (Player)Meter.active_meter.group[name];
             foreach (Action action in player.details)

@@ -342,7 +342,9 @@ namespace AIONMeter
         {
             string value="";
             if (InputBox("New member", "Enter new group member's name", ref value) == DialogResult.OK)
+            {
                 Meter.active_meter.group.join(value);
+            }
         }
 
         public static DialogResult InputBox(string title, string promptText, ref string value)

@@ -16,6 +16,7 @@ Hüseyin Uslu, <shalafiraistlin nospam gmail dot com>
 */
 
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Globalization;
@@ -90,8 +91,40 @@ namespace AIONMeter
             LogWriter writer = LogWriter.Instance;
             writer.WriteToLog("Vroum");
 
+            minifyLog(0);
+
             main_window = new frmMeter();
             Application.Run(main_window);
+        }
+
+        /**
+         * TODO Devrait-on pas vidé le fichier de log ? maxLineCount à 0 pour vidé
+         */
+        static void minifyLog(int maxLineCount)
+        {
+            string logSourcePath = Config.get_game_path();
+            string logCopyPath = logSourcePath + "/logs";
+            string destLog = logCopyPath + "/Chat-" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".log";
+
+
+            string[] lines = File.ReadAllLines(logSourcePath + "/Chat.log");                // Fichier log => array
+            string[] linesToCopy = new string[maxLineCount];                                // Futur fichier log => array
+            // Si le nombre est suppérieur a maxLineCount
+            if (lines.Length > maxLineCount)
+            {
+                // On test si le dossier logs, ou stocké le fichier log, n'existe pas
+                if (!System.IO.Directory.Exists(logCopyPath))
+                {
+                    // On le créer
+                    System.IO.Directory.CreateDirectory(logCopyPath);
+                }
+                // Copie le fichier de base dans le dossier logs
+                File.Copy(logSourcePath + "/Chat.log", destLog);
+                // On garde les "maxLineCount" lignes du fichier logs...
+                Array.Copy(lines, lines.Length - maxLineCount, linesToCopy, 0, maxLineCount);
+                // On ecrire le fichier log
+                File.WriteAllLines(logSourcePath + "/Chat.log", linesToCopy);
+            }
         }
     }
 }

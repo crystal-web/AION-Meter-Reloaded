@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AIONMeter")]
-[assembly: AssemblyDescription("http://www.aionmeter.com")]
+[assembly: AssemblyTitle("AIONMeter-Reloaded")]
+[assembly: AssemblyDescription("http://crystal-web.org")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("AIONMeter")]
-[assembly: AssemblyProduct("AIONMeter")]
-[assembly: AssemblyCopyright("Copyright ©  2009")]
+[assembly: AssemblyCompany("Crystal-Web Service")]
+[assembly: AssemblyProduct("AIONMeter-Reloaded")]
+[assembly: AssemblyCopyright("Copyright ©  2009 - 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

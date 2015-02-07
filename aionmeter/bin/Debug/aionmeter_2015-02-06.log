@@ -40,3 +40,7 @@
 03:28:41.331 	Meter.commit_action.group[who]: AIONMeter.Player
 03:28:41.343 	Action.Action: >> Exception: time:2015.02.06 15:28:41 who:You amount:1478 target:Training Dummy skill:Soul Torrent I
 03:28:41.346 	Action.Action: >> Exception: time:2015.02.06 15:28:41 who:You amount:1478 target:Training Dummy skill:Soul Torrent I
+08:40:52.515 	Vroum
+08:41:06.000 	Player.Player: You
+08:41:06.002 	PetTracker.PetTracker: init the structure
+08:44:07.101 	Player.Player: Zaro

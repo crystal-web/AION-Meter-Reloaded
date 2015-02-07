@@ -24,17 +24,20 @@ namespace AIONMeter
 {
     public class Player : IDisposable
     {
-        public string name;
-        public Int32 damage = 0;
-        public Int32 healing = 0;
-        public Int32 peak_damage = 0;
-        public Int32 peak_healing = 0;
-        public double DPS = 0;
+        public string name;             // Player.name 
+        public Int32 damage = 0;        // damage this player
+        public Int32 healing = 0;       // healing this player
+        public Int32 peak_damage = 0;   // ? top damage ?
+        public Int32 peak_healing = 0;  // ? top healing ?
+        public double DPS = 0;          // Damage per seconds
+        /* Déchainement sans retenue du DPS. On essaie de faire le maximum de dégâts en un minimum de temps sans se soucier de l’aggro. */
         public double burst_DPS = 0;
-        public double HPS = 0;
+        public double HPS = 0;          // Healing per seconds
         public double burst_HPS = 0;
+
         public List<Action> details;
         public List<Pet> pets;
+
         public double percent = 0;
         public System.Drawing.Color color;
         private bool disposed = false;
