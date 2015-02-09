@@ -31,12 +31,19 @@ namespace AIONMeter
 
         public frmMeter()
         {
-            InitializeComponent();
+			// Load splashscreen
+			frmSplashscreen splashscreen = new frmSplashscreen();
+			// Show it
+			splashscreen.Show();
 
-            // Double buffer the form drawing in order to prevent flickering
-            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
-            SetStyle(ControlStyles.UserPaint, true);
-            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+			InitializeComponent();
+
+			// Double buffer the form drawing in order to prevent flickering
+			SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+			SetStyle(ControlStyles.UserPaint, true);
+			SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+			// Hide the splashscreen
+			splashscreen.hideSplash();
         }
 
         private void frmMeter_Load(object sender, EventArgs e)
