@@ -75,7 +75,7 @@ namespace AIONMeter
                     Meter.active_meter.effect_tracker.track(this);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 writer.WriteToLog("Action.Action: >> Exception: time:" + _time + " who:" + who.name + " amount:" + _amount + " target:" + _target + " skill:" + _skill);
             }

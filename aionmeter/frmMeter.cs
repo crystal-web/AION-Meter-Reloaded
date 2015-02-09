@@ -217,7 +217,7 @@ namespace AIONMeter
                     progressbar.Value = progress;
                 }
             }
-            catch (Exception e) { }
+            catch (Exception) { }
         }
 
         public void notify_progress_bar_max(string status, int max)
@@ -235,7 +235,7 @@ namespace AIONMeter
                     progressbar.Visible = true;
                 }
             }
-            catch (Exception e) { }
+            catch (Exception) { }
         }
 
         public void notify_progress_bar_finished()

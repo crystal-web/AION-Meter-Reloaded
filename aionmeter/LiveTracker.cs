@@ -39,7 +39,7 @@ namespace AIONMeter
                 reader.ReadToEnd(); // set position to end
                 watcher = new FileWatcher(file_changed); // start the filewatcher
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 // TODO Show config path
                 MessageBox.Show("The log file " + file + " can not be found! Please set your AION path", 

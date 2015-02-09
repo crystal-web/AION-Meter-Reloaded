@@ -213,7 +213,7 @@ namespace AIONMeter
             {
                 group[Properties.Resources.You].Clear(); // clear the players statistics
             }
-            catch (Exception e) { }
+            catch (Exception) { }
         }
 
         public void calculate_statistics()

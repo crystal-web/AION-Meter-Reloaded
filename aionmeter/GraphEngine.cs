@@ -102,7 +102,7 @@ namespace AIONMeter
                     cm = null;
                 }
             }
-            catch (Exception exc) { } // an meter update may broke the traversing
+            catch (Exception) { } // an meter update may broke the traversing
             finally
             {
                 font_bold.Dispose();

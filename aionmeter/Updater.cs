@@ -82,7 +82,7 @@ namespace AIONMeter
                     }
                 }
             }
-            catch (Exception e) { }
+            catch (Exception) { }
             return new Version(major, minor, build, revision);
         }
 

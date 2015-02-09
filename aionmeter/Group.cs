@@ -92,7 +92,7 @@ namespace AIONMeter
                 Player p = new Player(name);
                 members.Add(name, p);
             }
-            catch (Exception e) { }
+            catch (Exception) { }
         }
 
         public void leave(String name)
@@ -103,7 +103,7 @@ namespace AIONMeter
                 {
                     members.Remove(name);
                 }
-                catch (Exception e) { }
+                catch (Exception) { }
             }
             else
                 reset();

@@ -59,7 +59,7 @@ namespace AIONMeter
 
             // Try to switch to configured locale
             try { Thread.CurrentThread.CurrentUICulture = new CultureInfo(Config.get_language()); }
-            catch (Exception e)
+            catch (Exception)
             {
                 MessageBox.Show("The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
                     "Language Error",
