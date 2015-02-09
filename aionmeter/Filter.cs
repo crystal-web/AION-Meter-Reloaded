@@ -13,6 +13,8 @@ namespace AIONMeter
         public Boolean combat_filter; // is it a filter that match combat actions?
         private bool disposed = false;
 
+		private LogWriter writer = LogWriter.Instance;
+
         public Filter(string pattern, delegate_callback _callback)
         {
             regex = new Regex(pattern, RegexOptions.Compiled); // Compile the regex for faster matches
@@ -27,12 +29,18 @@ namespace AIONMeter
             combat_filter = _combat_filter;
         }
 
+		// TODO regex not match ! Because ? 
+		// http://derekslager.com/blog/posts/2007/09/a-better-dotnet-regular-expression-tester.ashx
+		// 2015.02.09 12:17:07 : Esprit du Vent a infligé 479 points de dégâts à Mannequin d'entraînement.
+		// (?<time>\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?<critical>(Coup critique !)*)(?<who>.*?)( a| avez) infligé (?<amount>\d+(.\d{3})*) points de dégâts (|critiques )à (?<target>.*).
         public Boolean Run(string line)
         {
+			writer.WriteToLog("Filter.Run : " + line);
             Match m;
             if ((m = regex.Match(line)).Success) // if a match
             {
-                callback(m.Groups); // call the callback function with match groups
+				writer.WriteToLog("Filter.Run : Match > callback " + m.Groups.ToString());
+				callback(m.Groups); // call the callback function with match groups
                 return true;
             }
             return false;

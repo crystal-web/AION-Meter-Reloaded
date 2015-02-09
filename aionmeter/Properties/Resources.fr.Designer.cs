@@ -70,7 +70,7 @@ namespace AIONMeter {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Coup critique !)*)(?&lt;who&gt;.*?)(| avez) infligé (?&lt;amount&gt;\d+(.\d{3})*) points de dégâts (|critiques ) à (?&lt;target&gt;.*)..
+        ///   Recherche une chaîne localisée semblable à @&quot;(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Coup critique !)*)(?&lt;who&gt;.*?)( a| avez) infligé (?&lt;amount&gt;\d+(.\d{3})*) points de dégâts (|critiques )à (?&lt;target&gt;.*).&quot;.
         /// </summary>
         internal static string FILTER_DIRECT_DAMAGE {
             get {

@@ -26,6 +26,8 @@ namespace AIONMeter
 {
     public class Parser : IDisposable
     {
+		private LogWriter writer = LogWriter.Instance;
+
         public enum MODE
         {
             NORMAL,
@@ -45,7 +47,7 @@ namespace AIONMeter
 
             // damage filters
             filters.Add(new Filter(
-                Properties.Resources.FILTER_DIRECT_DAMAGE_SKILL, 
+				"(?<time>\\d{4}.\\d{2}.\\d{2} \\d{2}:\\d{2}:\\d{2}) : (?<critical>(Coup critique !)*)(?<who>.*?)( a| avez) infligé (?<amount>\\d+(.\\d{3})*) points de dégâts (|critiques )à (?<target>.*).", 
                 new Filter.delegate_callback(meter.commit_damage),
                 true)
                 );
@@ -82,6 +84,7 @@ namespace AIONMeter
                 bool ignore_combat = false;
                 if (mode == MODE.IGNORE_COMBAT)
                 {
+					writer.WriteToLog("Parser/parse_line: ignore_combat: true");
                     ignore_combat = true;
                 }
                     
@@ -100,7 +103,7 @@ namespace AIONMeter
                             {
                                 break;
                             }
-                        }
+						} else {writer.WriteToLog("Parser/parse_line: ignore_combat: true no check Filter");}
                     }
                 }
                 catch (Exception e)

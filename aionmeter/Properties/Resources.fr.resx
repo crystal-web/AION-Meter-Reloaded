@@ -121,7 +121,7 @@
     <value>Damage Done</value>
   </data>
   <data name="FILTER_DIRECT_DAMAGE" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Coup critique !)*)(?&lt;who&gt;.*?)(| avez) infligé (?&lt;amount&gt;\d+(.\d{3})*) points de dégâts (|critiques ) à (?&lt;target&gt;.*).</value>
+    <value>@"(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Coup critique !)*)(?&lt;who&gt;.*?)( a| avez) infligé (?&lt;amount&gt;\d+(.\d{3})*) points de dégâts (|critiques )à (?&lt;target&gt;.*)."</value>
   </data>
   <data name="HealingDone" xml:space="preserve">
     <value>Healing Done</value>
