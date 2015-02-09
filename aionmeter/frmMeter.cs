@@ -31,19 +31,19 @@ namespace AIONMeter
 
         public frmMeter()
         {
-			// Load splashscreen
-			frmSplashscreen splashscreen = new frmSplashscreen();
-			// Show it
-			splashscreen.Show();
+            // Load splashscreen
+            frmSplashscreen splashscreen = new frmSplashscreen();
+            // Show it
+            splashscreen.Show();
+            
+            InitializeComponent();
 
-			InitializeComponent();
-
-			// Double buffer the form drawing in order to prevent flickering
-			SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
-			SetStyle(ControlStyles.UserPaint, true);
-			SetStyle(ControlStyles.AllPaintingInWmPaint, true);
-			// Hide the splashscreen
-			splashscreen.hideSplash();
+            // Double buffer the form drawing in order to prevent flickering
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+            SetStyle(ControlStyles.UserPaint, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+            // Hide the splashscreen
+            splashscreen.hideSplash();
         }
 
         private void frmMeter_Load(object sender, EventArgs e)
@@ -224,7 +224,7 @@ namespace AIONMeter
                     progressbar.Value = progress;
                 }
             }
-            catch (Exception) { }
+            catch (Exception e) { }
         }
 
         public void notify_progress_bar_max(string status, int max)
@@ -242,7 +242,7 @@ namespace AIONMeter
                     progressbar.Visible = true;
                 }
             }
-            catch (Exception) { }
+            catch (Exception e) { }
         }
 
         public void notify_progress_bar_finished()

@@ -92,7 +92,7 @@ namespace AIONMeter
                 Player p = new Player(name);
                 members.Add(name, p);
             }
-            catch (Exception) { }
+            catch (Exception e) { }
         }
 
         public void leave(String name)
@@ -103,7 +103,7 @@ namespace AIONMeter
                 {
                     members.Remove(name);
                 }
-                catch (Exception) { }
+                catch (Exception e) { }
             }
             else
                 reset();
@@ -143,9 +143,11 @@ namespace AIONMeter
                         case "[%Pet4]":
                         case "[%Pet5]":
                             break;
-                        default:
-                            pet = m.Groups[2].Value;
-                            if (player != null) this[player].summon_pet(DateTime.Now.ToString("yyyy.MM.dd hh:mm:ss"), pet, "Summon"); // TODO, pet should summon with the right skill not with general "Summon" :D
+					default:
+						pet = m.Groups [2].Value;
+						if (player != null) { 
+							this [player].summon_pet (DateTime.Now.ToString ("yyyy.MM.dd hh:mm:ss"), pet, "Summon"); // TODO, pet should summon with the right skill not with general "Summon" :D
+						}
                             break;
                     }
                 }

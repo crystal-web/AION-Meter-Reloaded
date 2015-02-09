@@ -42,10 +42,10 @@ namespace AIONMeter
         public System.Drawing.Color color;
         private bool disposed = false;
 
-        public Player(string name)
-        {
+		private LogWriter writer = LogWriter.Instance;
 
-            LogWriter writer = LogWriter.Instance;
+        public Player(string name)
+        {            
             writer.WriteToLog("Player.Player: " + name);
 
             this.name = name;
@@ -61,25 +61,28 @@ namespace AIONMeter
 
         public void summon_pet(string time, string target, string skill)
         {
-            if (pets == null) pets = new List<Pet>(); // if the player summons first pet, prepare the structure
-            if (pets.Count > 0) Meter.active_meter.pet_tracker.remove((Pet)pets[pets.Count - 1]); //if players has already summoned pet, first remove the last pet from Pet Tracker
+			writer.WriteToLog("Player.summon_pet: " + time + " " + target + " " + skill);
+			if (pets == null) {
+				pets = new List<Pet> (); // if the player summons first pet, prepare the structure
+			}
+			if (pets.Count > 0) {
+				Meter.active_meter.pet_tracker.remove ((Pet)pets [pets.Count - 1]); //if players has already summoned pet, first remove the last pet from Pet Tracker
+			}
 
             Pet p = new Pet(target, this); // new pet
             pets.Add(p); // add to players pet list
             Meter.active_meter.pet_tracker.track(p); // track the pet
 
-            Action a = new Action(time, this, 0, target, skill, false); // insert the summon skill also as an action
+
+			// TODO -->  0 damage ? Mmmh
+            Action a = new Action(time, this, /* damage */ 0, target, skill, false); // insert the summon skill also as an action
             details.Add(a);
-            if (DebugLog.on)
-            {
-                if (null != a.ToString()){
-                    DebugLog.write_line(a.ToString());
-                }
-            }
+			writer.WriteToLog("Player.summon_pet: " + a.ToString());
         }
 
         public void Clear()
         {
+			writer.WriteToLog("Player.Clear");
             details.Clear();
             damage = 0;
             percent = 0;

@@ -28,6 +28,7 @@ namespace AIONMeter
     {
         public static void paint_meter(Graphics graphics, PaintEventArgs e, PictureBox Scene)
         {
+			LogWriter writer = LogWriter.Instance;
             Meter.active_meter.calculate_statistics(); // recalculate meter statistics
 
             Image bar_texture=null;
@@ -68,9 +69,11 @@ namespace AIONMeter
                     // Draw the text
                     graphics.DrawString(player.name, font_bold, text_brush, 0, y_offset); // draw the player_name                    
 
+					writer.WriteToLog("GraphEngine.paint_meter: first switch value " + player.peak_damage.ToString() + " " + player.peak_healing.ToString());
                     switch (Meter.active_meter.render_mode)
                     {
                         case Meter.RENDER_MODE.render_damage:
+						writer.WriteToLog("GraphEngine.paint_meter: render damage");
                             peak_value = player.peak_damage.ToString();
                             str_ps = "dps";
                             str_ps_value = player.DPS.ToString("#0");
@@ -78,6 +81,7 @@ namespace AIONMeter
                             total = player.damage.ToString() + " total - " + player.percent.ToString("#0.00") + "% / ";
                             break;
                         case Meter.RENDER_MODE.render_healing:
+						writer.WriteToLog("GraphEngine.paint_meter: render healing");
                             peak_value = player.peak_healing.ToString();
                             str_ps = "hps";
                             str_ps_value = player.HPS.ToString("#0");

@@ -38,12 +38,12 @@ namespace SkillDBCreator
                 // Add to types list
                 string _type = skill_node.SelectSingleNode("type").InnerText.Trim().ToLower().Replace("İ", "I");
                 try { SkillDB.types_list.Add(_type, SkillDB.types_list.Count); }
-                catch (Exception) { }
+                catch (Exception e) { }
 
                 // add to sub_types list
                 string _sub_type = skill_node.SelectSingleNode("sub_type").InnerText.Trim().ToLower().Replace("İ", "I");
                 try { SkillDB.sub_types_list.Add(_sub_type, SkillDB.sub_types_list.Count); }
-                catch (Exception) { }
+                catch (Exception e) { }
 
                 // set the type and sub_type
                 this.sub_type = (AIONMeter.SUB_TYPES)SkillDB.sub_types_list[_sub_type];
@@ -82,7 +82,7 @@ namespace SkillDBCreator
                         // add the effect type
                         string _effect_type = skill_node.SelectSingleNode(effect_type).InnerText.ToUpper().Replace('İ', 'I');
                         try { SkillDB.effect_types_list.Add(_effect_type, SkillDB.effect_types_list.Count); }
-                        catch (Exception) { }
+                        catch (Exception e) { }
 
                         AIONMeter.EFFECT_TYPES et = (AIONMeter.EFFECT_TYPES)SkillDB.effect_types_list[_effect_type];
                         switch (et)
@@ -96,7 +96,7 @@ namespace SkillDBCreator
                                 {
                                     effect_tick = Int32.Parse(skill_node.SelectSingleNode(effect_checktime).InnerText) / 1000;
                                 }
-                                catch (Exception)
+                                catch (Exception e)
                                 {
                                     effect_tick = 0;
                                 }
@@ -114,7 +114,7 @@ namespace SkillDBCreator
                 {
                     SkillDB.list.Add(name, this);
                 }
-                catch (Exception)
+                catch (Exception e)
                 { }
             }
         }

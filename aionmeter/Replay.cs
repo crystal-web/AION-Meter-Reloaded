@@ -66,7 +66,7 @@ namespace AIONMeter
                 count_lines();
                 start();
             }
-            catch (FileNotFoundException)
+            catch (FileNotFoundException e)
             {
                 file_exists = false;
             }

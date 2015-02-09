@@ -192,8 +192,6 @@ namespace AIONMeter
             who = who.Trim();
             writer.WriteToLog("Meter.commit_action: " + time + " who:" + who + " amout:" + amount + " target:" + target + " skill:" + skill);
             
-
-
             if (group[who] != null) // check if he's in party
             {
                 writer.WriteToLog("Meter.commit_action.group[who]: " + group[who].ToString());
@@ -202,6 +200,7 @@ namespace AIONMeter
             }
             else // a pet may also inflict the damage, so let PetTracker to check it
             {
+				writer.WriteToLog("Meter.commit_action.group[who]: " + group[who].ToString() + " else");
                 pet_tracker.commit_pet_action(time, who, amount, target, skill);
             }
         }
@@ -218,10 +217,12 @@ namespace AIONMeter
 
         public void calculate_statistics()
         {
+			writer.WriteToLog("Meter.calculate_statistics");
             Int64 party_total = 0; // total party damage/healing for percent calculations
 
             if (group != null && group.members.Count > 0)
             {
+				writer.WriteToLog("Meter.calculate_statistics: group not null and contains more 0");
                 foreach (Player player in group.members.Values)
                 {
                     switch (render_mode)
@@ -235,19 +236,31 @@ namespace AIONMeter
                     }
                 }
 
+				writer.WriteToLog("Meter.calculate_statistics: party_total: " + party_total);
+
                 try
                 {
                     foreach (Player player in group.members.Values) // calculate the statistics
                     {                        
                         TimeSpan t = new TimeSpan(0);
-                        if (player.details.Count > 0)
-                            t = DateTime.Now - player.details[0].time;
+                        if (player.details.Count > 0) 
+						{
+							t = DateTime.Now - player.details[0].time;
+						}
 
                         // DPS & HPS
                         player.DPS = (double)(player.damage / t.TotalSeconds);
-                        if (double.IsNaN(player.DPS)) player.DPS = 0;
+                        if (double.IsNaN(player.DPS)) 
+						{
+							player.DPS = 0;
+						}
                         player.HPS = (double)(player.healing / t.TotalSeconds);
-                        if (double.IsNaN(player.HPS)) player.HPS = 0;
+                        if (double.IsNaN(player.HPS))
+						{
+							player.HPS = 0;
+						}
+
+						writer.WriteToLog("Meter.calculate_statistics: DPS & HPS: " + player.DPS + " " + player.HPS);
 
                         // Burst values
                         Int32 i = 0;
@@ -269,6 +282,8 @@ namespace AIONMeter
                         player.burst_DPS = burst_dmg_total / 5;
                         player.burst_HPS = burst_healing_total / 5;
 
+						writer.WriteToLog("Meter.calculate_statistics: burst DPS & burst HPS: " + player.burst_DPS + " " + player.burst_HPS);
+
                         // percentage
                         switch (render_mode)
                         {
@@ -279,6 +294,7 @@ namespace AIONMeter
                                 player.percent = (double)(player.healing * 100) / party_total;
                                 break;
                         }
+						writer.WriteToLog("Meter.calculate_statistics: percent: " + player.percent);
                         if (double.IsNaN(player.percent))
                         {
                             player.percent = 0; // if expression returns Not A Number just assign 0
@@ -318,6 +334,7 @@ namespace AIONMeter
 
         public void commit_damage(GroupCollection matches) // direct-damage
         {
+			writer.WriteToLog("Meter.commit_damage");
             string time = matches["time"].Value.Trim();
             string who = matches["who"].Value.Trim();
             Int32 amount = Int32.Parse(Regex.Replace(matches["amount"].Value,@"[\D]","")); // AION puts speration character between each 3 digits, but it's somewhat not only a '.' or ','. So we're replacing any characters thats not a digit.                                         
@@ -341,6 +358,7 @@ namespace AIONMeter
 
         public void commit_dot_effect(GroupCollection matches) // damage over-time
         {
+			writer.WriteToLog("Meter.commit_dot_effect");
             string time = matches["time"].Value.Trim();
             string target = matches["target"].Value.Trim();
             Int32 amount = Int32.Parse(Regex.Replace(matches["amount"].Value, @"[\D]", ""));
@@ -351,6 +369,7 @@ namespace AIONMeter
 
         public void commit_healing(GroupCollection matches) // direct healing
         {
+			writer.WriteToLog("Meter.commit_healing");
             string time = matches["time"].Value.Trim();
             string who = matches["who"].Value.Trim();
             Int32 amount = Int32.Parse(Regex.Replace(matches["amount"].Value, @"[\D]", ""));
@@ -367,6 +386,7 @@ namespace AIONMeter
 
         public void commit_hot_effect(GroupCollection matches) // healing over-time
         {
+			writer.WriteToLog("Meter.commit_hot_effect");
             string time = matches["time"].Value.Trim();
             string target = matches["target"].Value.Trim();
             bool critical = false;
@@ -390,6 +410,7 @@ namespace AIONMeter
 
         public void summon_pet(GroupCollection matches) // player's pet summons
         {
+			writer.WriteToLog("Meter.summon_pet");
             string who = matches["who"].Value.Trim();
             if (group[who] != null)
             {
@@ -403,6 +424,7 @@ namespace AIONMeter
 
         public void player_online(GroupCollection matches) // player is online, reset the statistics
         {
+			writer.WriteToLog("Meter.player_online");
             reset_meter();
         }
 
@@ -413,6 +435,7 @@ namespace AIONMeter
 
         public void group_message(GroupCollection matches)
         {
+			writer.WriteToLog("Meter.group_message");
             string who = matches["who"].Value.Trim();
             string message = matches["message"].Value.Trim();
             if(message.Contains("<SyncAMGroup>")) // group-sync macro triggered by a group member
@@ -423,6 +446,7 @@ namespace AIONMeter
 
         public void self_message(GroupCollection matches)
         {
+			writer.WriteToLog("Meter.self_message");
             string self = matches["who"].Value.Replace(":","").Trim();
             string message = matches["message"].Value.Trim();
             if(message.Contains("<SyncAMGroup>")) // group-sync macro triggered by self
@@ -431,6 +455,7 @@ namespace AIONMeter
 
         public void member_left(GroupCollection matches)
         {
+			writer.WriteToLog("Meter.member_left");
             group.leave(matches["who"].Value.Trim());
         }
         #endregion

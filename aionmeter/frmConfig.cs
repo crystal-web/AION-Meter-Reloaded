@@ -81,7 +81,9 @@ namespace AIONMeter
                         }
                     }
                 }
-            } catch (Exception ){ }
+            }
+            catch (Exception exc)
+            { }
         }
 
         private void cmdApply_Click(object sender, EventArgs e)
