@@ -21,3 +21,6 @@ C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\De
 C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\fr\aionmeter.resources.dll
 C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\aionmeter.exe
 C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\aionmeter.pdb
+C:\GitHub\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.exe.config
+C:\GitHub\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.exe
+C:\GitHub\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.pdb

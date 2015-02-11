@@ -18,6 +18,8 @@ Vous pouvez soutenir le développement du projet;
 
 [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-green.svg?style=plastic)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7ZYD4ZZG3GYH6 "Donate once-off to this project using Paypal")
 
-
 ## Statut du developpement
 ![Status](https://img.shields.io/badge/build-faild-red.svg?style=plastic)
+
+##Just analytics ^^
+![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/crystal-web/aion-meter-reloaded/trend.png)
