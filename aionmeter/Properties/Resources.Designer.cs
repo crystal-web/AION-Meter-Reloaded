@@ -61,6 +61,16 @@ namespace AIONMeter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aionmeter_reloaded {
+            get {
+                object obj = ResourceManager.GetObject("aionmeter-reloaded", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Damage Done.
         /// </summary>
         internal static string DamageDone {

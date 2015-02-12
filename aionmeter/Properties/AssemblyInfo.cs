@@ -1,23 +1,24 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AIONMeter-Reloaded")]
-[assembly: AssemblyDescription("http://crystal-web.org")]
+[assembly: AssemblyTitle("AIONMeter")]
+[assembly: AssemblyDescription("http://crystal-web.org/dev/AIONMeter-Reloaded")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Crystal-Web Service")]
 [assembly: AssemblyProduct("AIONMeter-Reloaded")]
-[assembly: AssemblyCopyright("Copyright ©  2009 - 2015")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("3b48a4dc-8c28-440a-a687-3c449676132c")]
@@ -32,5 +33,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.4.1")]
-[assembly: AssemblyFileVersion("0.0.4.1")]
+[assembly: AssemblyVersion("0.0.4.2")]
+[assembly: AssemblyFileVersion("0.0.4.2")]
+[assembly: NeutralResourcesLanguageAttribute("en")]

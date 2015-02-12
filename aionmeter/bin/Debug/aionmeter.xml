@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>aionmeter</name>
+    </assembly>
+    <members>
+        <member name="F:AIONMeter.frmAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AIONMeter.frmConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AIONMeter.frmDetails.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmDetails.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmDetails.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AIONMeter.frmMeter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmMeter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmMeter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AIONMeter.frmSplashscreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmSplashscreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmSplashscreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AIONMeter.frmSyncMacro.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.frmSyncMacro.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AIONMeter.frmSyncMacro.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:AIONMeter.Program.minifyLog(System.Int32)">
+            TODO Devrait-on pas vidé le fichier de log ? maxLineCount à 0 pour vidé
+        </member>
+        <member name="T:AIONMeter.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.aionmeter_reloaded">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.DamageDone">
+            <summary>
+              Looks up a localized string similar to Damage Done.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_DAMAGE">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_DAMAGE_SKILL">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_HEALING">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_HEALING_SKILL">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_DOT">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) received (?&lt;amount&gt;\d+(.\d{3})*) damage due to the effect of (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_GROUP_DISBAND">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (You left the group|The group has been disbanded)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_GROUP_MESSAGE">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*).
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_HOT_1">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_HOT_2">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)&apos;s HP by using (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_JOIN_GROUP">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_KICKED">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_LEFT_GROUP">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_ONLINE">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_SELF_MESSAGE">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) (?&lt;message&gt;.*).
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_SUMMON_1">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*?) to let it attack (.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.FILTER_SUMMON_2">
+            <summary>
+              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.HealingDone">
+            <summary>
+              Looks up a localized string similar to Healing Done.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Properties.Resources.You">
+            <summary>
+              Looks up a localized string similar to You.
+            </summary>
+        </member>
+        <member name="T:AIONMeter.Textures">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Aluminium">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.BantoBar">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Bars">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Bumps">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Charcoal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Cilo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Cloud">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Dabs">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.DarkBottom">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Diagonal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Fifths">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Flat">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Fourths">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Frost">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glamour7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Glaze2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Gloss">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Graphite">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Grid">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Hatched">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Healbot">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.LiteStep">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Lyfe">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Melit">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.MelitDark">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Minimalist">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Otravi">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Perl">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Perl2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Rain">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Rocks">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Round">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Ruben">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Runes">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Skewed">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Smooth">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Smoothv2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Smudge">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Steel">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Striped">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Water">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Wisps">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AIONMeter.Textures.Xeon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:AIONMeter.LogWriter">
+            <summary>
+            A Logging class implementing the Singleton pattern and an internal Queue to be flushed perdiodically
+            </summary>
+        </member>
+        <member name="M:AIONMeter.LogWriter.#ctor">
+            <summary>
+            Private constructor to prevent instance creation
+            </summary>
+        </member>
+        <member name="M:AIONMeter.LogWriter.WriteToLog(System.String)">
+            <summary>
+            The single instance method that writes to the log file
+            </summary>
+            <param name="message">The message to write to the log</param>
+        </member>
+        <member name="M:AIONMeter.LogWriter.FlushLog">
+            <summary>
+            Flushes the Queue to the physical log file
+            </summary>
+        </member>
+        <member name="P:AIONMeter.LogWriter.Instance">
+            <summary>
+            An LogWriter instance that exposes a single instance
+            </summary>
+        </member>
+        <member name="T:AIONMeter.Log">
+            <summary>
+            A Log class to store the message and the Date and Time the log entry was created
+            </summary>
+        </member>
+    </members>
+</doc>

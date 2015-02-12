@@ -112,25 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DamageDone" xml:space="preserve">
-    <value>Damage Done</value>
-  </data>
-  <data name="FILTER_DIRECT_DAMAGE" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*).</value>
-  </data>
   <data name="FILTER_DIRECT_DAMAGE_SKILL" xml:space="preserve">
     <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*).</value>
-  </data>
-  <data name="FILTER_DIRECT_HEALING" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*).</value>
-  </data>
-  <data name="FILTER_DIRECT_HEALING_SKILL" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
   </data>
   <data name="FILTER_DOT" xml:space="preserve">
     <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) received (?&lt;amount&gt;\d+(.\d{3})*) damage due to the effect of (?&lt;skill&gt;.*).</value>
@@ -138,41 +126,57 @@
   <data name="FILTER_GROUP_DISBAND" xml:space="preserve">
     <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (You left the group|The group has been disbanded).</value>
   </data>
-  <data name="FILTER_GROUP_MESSAGE" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*)</value>
-  </data>
-  <data name="FILTER_HOT_1" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
-  </data>
-  <data name="FILTER_HOT_2" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)'s HP by using (?&lt;skill&gt;.*).</value>
-  </data>
-  <data name="FILTER_PLAYER_JOIN_GROUP" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group.</value>
-  </data>
-  <data name="FILTER_PLAYER_KICKED" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group.</value>
-  </data>
-  <data name="FILTER_PLAYER_LEFT_GROUP" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group.</value>
-  </data>
-  <data name="FILTER_PLAYER_ONLINE" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online.</value>
-  </data>
   <data name="FILTER_SELF_MESSAGE" xml:space="preserve">
     <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) (?&lt;message&gt;.*)</value>
   </data>
   <data name="FILTER_SUMMON_1" xml:space="preserve">
     <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*?) to let it attack (.*).</value>
   </data>
-  <data name="FILTER_SUMMON_2" xml:space="preserve">
-    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*).</value>
+  <data name="FILTER_DIRECT_DAMAGE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*).</value>
+  </data>
+  <data name="FILTER_DIRECT_HEALING_SKILL" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
+  </data>
+  <data name="FILTER_PLAYER_KICKED" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group.</value>
+  </data>
+  <data name="FILTER_DIRECT_HEALING" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*).</value>
+  </data>
+  <data name="FILTER_PLAYER_ONLINE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online.</value>
   </data>
   <data name="HealingDone" xml:space="preserve">
     <value>Healing Done</value>
   </data>
+  <data name="FILTER_PLAYER_JOIN_GROUP" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group.</value>
+  </data>
+  <data name="FILTER_HOT_2" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)'s HP by using (?&lt;skill&gt;.*).</value>
+  </data>
+  <data name="FILTER_GROUP_MESSAGE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*)</value>
+  </data>
+  <data name="FILTER_HOT_1" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
+  </data>
+  <data name="DamageDone" xml:space="preserve">
+    <value>Damage Done</value>
+  </data>
   <data name="You" xml:space="preserve">
     <value>You</value>
     <comment>"You" in Chat.log file</comment>
+  </data>
+  <data name="FILTER_SUMMON_2" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*).</value>
+  </data>
+  <data name="FILTER_PLAYER_LEFT_GROUP" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aionmeter-reloaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aionmeter-reloaded1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

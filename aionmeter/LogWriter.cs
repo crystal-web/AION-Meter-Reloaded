@@ -62,7 +62,7 @@ namespace AIONMeter
                 {
                     FlushLog();
                 }
-            }            
+            }
         }
 
         private bool DoPeriodicFlush()
@@ -88,14 +88,14 @@ namespace AIONMeter
             {
                 Log entry = logQueue.Dequeue();
                 string logPath = logDir + "\\" + logFile + "_" + entry.LogDate + ".log";
-                
+
 
                 // This could be optimised to prevent opening and closing the file for each write
                 using (FileStream fs = File.Open(logPath, FileMode.Append, FileAccess.Write))
                 {
                     using (StreamWriter log = new StreamWriter(fs))
                     {
-                        log.WriteLine(string.Format("{0}\t{1}",entry.LogTime,entry.Message));
+                        log.WriteLine(string.Format("{0}\t{1}", entry.LogTime, entry.Message));
                     }
                 }
             }

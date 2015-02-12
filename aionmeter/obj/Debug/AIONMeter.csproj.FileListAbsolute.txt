@@ -1,70 +1,52 @@
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\bin\Debug\aionmeter.exe.config
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\bin\Debug\aionmeter.exe
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\bin\Debug\aionmeter.pdb
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\bin\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\bin\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.csprojResolveAssemblyReference.cache
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmAbout.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmConfig.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmDetails.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmMeter.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmSyncMacro.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.Properties.Resources.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.Textures.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmAbout.tr.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmConfig.tr.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmDetails.tr.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.frmMeter.tr.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.Properties.Resources.fr.resources
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\AIONMeter.csproj.GenerateResource.Cache
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\aionmeter.exe
-C:\Users\TheOne\Documents\Visual Studio 2013\Projects\AIONMeter\aionmeter\obj\Debug\aionmeter.pdb
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.exe.config
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.pdb
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.exe
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.pdb
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\bin\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\bin\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.csprojResolveAssemblyReference.cache
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmAbout.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmConfig.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmDetails.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmMeter.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmSyncMacro.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Properties.Resources.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Textures.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmAbout.tr.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmConfig.tr.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmDetails.tr.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmMeter.tr.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Properties.Resources.fr.resources
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.csproj.GenerateResource.Cache
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.exe
-C:\Users\TheOne\Source\Repos\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmSplashscreen.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.exe.config
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.exe
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\bin\Debug\aionmeter.pdb
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\bin\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\bin\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmAbout.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmConfig.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmDetails.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmMeter.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmSplashscreen.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmSyncMacro.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Properties.Resources.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Textures.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmAbout.tr.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmConfig.tr.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmDetails.tr.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.frmMeter.tr.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.Properties.Resources.fr.resources
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\AIONMeter.csproj.GenerateResource.Cache
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\tr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\fr\aionmeter.resources.dll
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.exe
-C:\Users\TheOne\Documents\Projects\crystal-web\AION-Meter-Reloaded\aionmeter\obj\Debug\aionmeter.pdb
+C:\GitHub\aionmeter\aionmeter\bin\Debug\aionmeter.exe.config
+C:\GitHub\aionmeter\aionmeter\bin\Debug\aionmeter.exe
+C:\GitHub\aionmeter\aionmeter\bin\Debug\aionmeter.pdb
+C:\GitHub\aionmeter\aionmeter\bin\Debug\tr\aionmeter.resources.dll
+C:\GitHub\aionmeter\aionmeter\bin\Debug\fr\aionmeter.resources.dll
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmAbout.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmConfig.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmDetails.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmMeter.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmSyncMacro.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.Properties.Resources.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.Textures.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmAbout.tr.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmConfig.tr.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmDetails.tr.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.frmMeter.tr.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.Properties.Resources.fr.resources
+C:\GitHub\aionmeter\aionmeter\obj\Debug\AIONMeter.csproj.GenerateResource.Cache
+C:\GitHub\aionmeter\aionmeter\obj\Debug\tr\aionmeter.resources.dll
+C:\GitHub\aionmeter\aionmeter\obj\Debug\fr\aionmeter.resources.dll
+C:\GitHub\aionmeter\aionmeter\obj\Debug\aionmeter.exe
+C:\GitHub\aionmeter\aionmeter\obj\Debug\aionmeter.pdb
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.exe.config
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.xml
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.exe
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.pdb
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\tr\aionmeter.resources.dll
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\fr\aionmeter.resources.dll
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmAbout.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmConfig.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmDetails.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmMeter.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmSyncMacro.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.Properties.Resources.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.Textures.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmAbout.tr.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmConfig.tr.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmDetails.tr.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmMeter.tr.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.Properties.Resources.fr.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.csproj.GenerateResource.Cache
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\tr\aionmeter.resources.dll
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\fr\aionmeter.resources.dll
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\aionmeter.exe
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\aionmeter.pdb
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.csprojResolveAssemblyReference.cache
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\AIONMeter.frmSplashscreen.resources
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.exe.manifest
+C:\GitHub\aionmeter - Copie (2)\aionmeter\bin\Debug\aionmeter.application
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\aionmeter.TrustInfo.xml
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\aionmeter.exe.manifest
+C:\GitHub\aionmeter - Copie (2)\aionmeter\obj\Debug\aionmeter.application

@@ -35,10 +35,11 @@ namespace AIONMeter
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-
         static void Main()
         {
-            
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            frmSplashscreen splash = new frmSplashscreen();
 
             // Test is administrator ?
             // app.manifest include
@@ -68,8 +69,7 @@ namespace AIONMeter
                 Config.set_language("en-US");
             }
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+
 
 
 
@@ -92,6 +92,8 @@ namespace AIONMeter
             writer.WriteToLog("Vroum");
 
             minifyLog(0);
+
+            splash.hideSplash();
 
             main_window = new frmMeter();
             Application.Run(main_window);
