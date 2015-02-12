@@ -89,14 +89,21 @@ namespace AIONMeter
                 Log entry = logQueue.Dequeue();
                 string logPath = logDir + "\\" + logFile + "_" + entry.LogDate + ".log";
 
-
-                // This could be optimised to prevent opening and closing the file for each write
-                using (FileStream fs = File.Open(logPath, FileMode.Append, FileAccess.Write))
+                try
                 {
+                    // This could be optimised to prevent opening and closing the file for each write
+                    using (FileStream fs = File.Open(logPath, FileMode.Append, FileAccess.Write))
                     using (StreamWriter log = new StreamWriter(fs))
                     {
                         log.WriteLine(string.Format("{0}\t{1}", entry.LogTime, entry.Message));
                     }
+                }
+                catch (System.IO.IOException e)
+                {
+                    var rnd = new Random(); 
+                    WriteToLog(e.ToString());
+                    logFile = logFile + "_ioex_" + rnd.Next(0, 1000);
+                    FlushLog();
                 }
             }
 

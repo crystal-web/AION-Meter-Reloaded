@@ -1,0 +1,625 @@
+06:06:46.441 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:46.441 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:46.441 	Meter.calculate_statistics: percent: Non Numérique
+06:06:46.459 	GraphEngine.paint_meter: first switch value 0 0
+06:06:46.459 	GraphEngine.paint_meter: render damage
+06:06:47.456 	Meter.calculate_statistics
+06:06:47.456 	Meter.calculate_statistics: group not null and contains more 0
+06:06:47.456 	Meter.calculate_statistics: party_total: 0
+06:06:47.456 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:47.456 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:47.456 	Meter.calculate_statistics: percent: Non Numérique
+06:06:47.470 	GraphEngine.paint_meter: first switch value 0 0
+06:06:47.470 	GraphEngine.paint_meter: render damage
+06:06:48.471 	Meter.calculate_statistics
+06:06:48.471 	Meter.calculate_statistics: group not null and contains more 0
+06:06:48.471 	Meter.calculate_statistics: party_total: 0
+06:06:48.471 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:48.471 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:48.471 	Meter.calculate_statistics: percent: Non Numérique
+06:06:48.485 	GraphEngine.paint_meter: first switch value 0 0
+06:06:48.485 	GraphEngine.paint_meter: render damage
+06:06:49.483 	Meter.calculate_statistics
+06:06:49.483 	Meter.calculate_statistics: group not null and contains more 0
+06:06:49.483 	Meter.calculate_statistics: party_total: 0
+06:06:49.483 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:49.483 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:49.483 	Meter.calculate_statistics: percent: Non Numérique
+06:06:49.498 	GraphEngine.paint_meter: first switch value 0 0
+06:06:49.498 	GraphEngine.paint_meter: render damage
+06:06:50.497 	Meter.calculate_statistics
+06:06:50.497 	Meter.calculate_statistics: group not null and contains more 0
+06:06:50.497 	Meter.calculate_statistics: party_total: 0
+06:06:50.497 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:50.497 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:50.497 	Meter.calculate_statistics: percent: Non Numérique
+06:06:50.515 	GraphEngine.paint_meter: first switch value 0 0
+06:06:50.515 	GraphEngine.paint_meter: render damage
+06:06:51.511 	Meter.calculate_statistics
+06:06:51.511 	Meter.calculate_statistics: group not null and contains more 0
+06:06:51.511 	Meter.calculate_statistics: party_total: 0
+06:06:51.511 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:51.511 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:51.511 	Meter.calculate_statistics: percent: Non Numérique
+06:06:51.531 	GraphEngine.paint_meter: first switch value 0 0
+06:06:51.531 	GraphEngine.paint_meter: render damage
+06:06:52.526 	Meter.calculate_statistics
+06:06:52.526 	Meter.calculate_statistics: group not null and contains more 0
+06:06:52.526 	Meter.calculate_statistics: party_total: 0
+06:06:52.526 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:52.526 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:52.526 	Meter.calculate_statistics: percent: Non Numérique
+06:06:52.544 	GraphEngine.paint_meter: first switch value 0 0
+06:06:52.544 	GraphEngine.paint_meter: render damage
+06:06:53.539 	Meter.calculate_statistics
+06:06:53.539 	Meter.calculate_statistics: group not null and contains more 0
+06:06:53.539 	Meter.calculate_statistics: party_total: 0
+06:06:53.539 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:53.539 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:53.539 	Meter.calculate_statistics: percent: Non Numérique
+06:06:53.555 	GraphEngine.paint_meter: first switch value 0 0
+06:06:53.555 	GraphEngine.paint_meter: render damage
+06:06:54.553 	Meter.calculate_statistics
+06:06:54.553 	Meter.calculate_statistics: group not null and contains more 0
+06:06:54.553 	Meter.calculate_statistics: party_total: 0
+06:06:54.553 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:54.553 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:54.553 	Meter.calculate_statistics: percent: Non Numérique
+06:06:54.566 	GraphEngine.paint_meter: first switch value 0 0
+06:06:54.566 	GraphEngine.paint_meter: render damage
+06:06:55.568 	Meter.calculate_statistics
+06:06:55.568 	Meter.calculate_statistics: group not null and contains more 0
+06:06:55.568 	Meter.calculate_statistics: party_total: 0
+06:06:55.568 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:55.568 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:55.568 	Meter.calculate_statistics: percent: Non Numérique
+06:06:55.585 	GraphEngine.paint_meter: first switch value 0 0
+06:06:55.585 	GraphEngine.paint_meter: render damage
+06:06:56.581 	Meter.calculate_statistics
+06:06:56.581 	Meter.calculate_statistics: group not null and contains more 0
+06:06:56.581 	Meter.calculate_statistics: party_total: 0
+06:06:56.581 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:56.581 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:56.581 	Meter.calculate_statistics: percent: Non Numérique
+06:06:56.596 	GraphEngine.paint_meter: first switch value 0 0
+06:06:56.596 	GraphEngine.paint_meter: render damage
+06:06:57.595 	Meter.calculate_statistics
+06:06:57.595 	Meter.calculate_statistics: group not null and contains more 0
+06:06:57.595 	Meter.calculate_statistics: party_total: 0
+06:06:57.595 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:57.595 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:57.595 	Meter.calculate_statistics: percent: Non Numérique
+06:06:57.611 	GraphEngine.paint_meter: first switch value 0 0
+06:06:57.611 	GraphEngine.paint_meter: render damage
+06:06:58.609 	Meter.calculate_statistics
+06:06:58.609 	Meter.calculate_statistics: group not null and contains more 0
+06:06:58.609 	Meter.calculate_statistics: party_total: 0
+06:06:58.609 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:58.609 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:58.609 	Meter.calculate_statistics: percent: Non Numérique
+06:06:58.626 	GraphEngine.paint_meter: first switch value 0 0
+06:06:58.626 	GraphEngine.paint_meter: render damage
+06:06:59.624 	Meter.calculate_statistics
+06:06:59.624 	Meter.calculate_statistics: group not null and contains more 0
+06:06:59.625 	Meter.calculate_statistics: party_total: 0
+06:06:59.625 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:06:59.625 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:06:59.625 	Meter.calculate_statistics: percent: Non Numérique
+06:06:59.641 	GraphEngine.paint_meter: first switch value 0 0
+06:06:59.641 	GraphEngine.paint_meter: render damage
+06:07:00.637 	Meter.calculate_statistics
+06:07:00.637 	Meter.calculate_statistics: group not null and contains more 0
+06:07:00.637 	Meter.calculate_statistics: party_total: 0
+06:07:00.637 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:00.637 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:00.637 	Meter.calculate_statistics: percent: Non Numérique
+06:07:00.650 	GraphEngine.paint_meter: first switch value 0 0
+06:07:00.650 	GraphEngine.paint_meter: render damage
+06:07:01.651 	Meter.calculate_statistics
+06:07:01.651 	Meter.calculate_statistics: group not null and contains more 0
+06:07:01.651 	Meter.calculate_statistics: party_total: 0
+06:07:01.651 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:01.651 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:01.651 	Meter.calculate_statistics: percent: Non Numérique
+06:07:01.665 	GraphEngine.paint_meter: first switch value 0 0
+06:07:01.665 	GraphEngine.paint_meter: render damage
+06:07:02.664 	Meter.calculate_statistics
+06:07:02.664 	Meter.calculate_statistics: group not null and contains more 0
+06:07:02.664 	Meter.calculate_statistics: party_total: 0
+06:07:02.664 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:02.664 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:02.664 	Meter.calculate_statistics: percent: Non Numérique
+06:07:02.682 	GraphEngine.paint_meter: first switch value 0 0
+06:07:02.682 	GraphEngine.paint_meter: render damage
+06:07:03.679 	Meter.calculate_statistics
+06:07:03.679 	Meter.calculate_statistics: group not null and contains more 0
+06:07:03.679 	Meter.calculate_statistics: party_total: 0
+06:07:03.679 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:03.679 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:03.679 	Meter.calculate_statistics: percent: Non Numérique
+06:07:03.693 	GraphEngine.paint_meter: first switch value 0 0
+06:07:03.693 	GraphEngine.paint_meter: render damage
+06:07:04.693 	Meter.calculate_statistics
+06:07:04.693 	Meter.calculate_statistics: group not null and contains more 0
+06:07:04.693 	Meter.calculate_statistics: party_total: 0
+06:07:04.693 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:04.693 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:04.693 	Meter.calculate_statistics: percent: Non Numérique
+06:07:04.710 	GraphEngine.paint_meter: first switch value 0 0
+06:07:04.710 	GraphEngine.paint_meter: render damage
+06:07:05.708 	Meter.calculate_statistics
+06:07:05.708 	Meter.calculate_statistics: group not null and contains more 0
+06:07:05.708 	Meter.calculate_statistics: party_total: 0
+06:07:05.708 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:05.708 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:05.708 	Meter.calculate_statistics: percent: Non Numérique
+06:07:05.731 	GraphEngine.paint_meter: first switch value 0 0
+06:07:05.731 	GraphEngine.paint_meter: render damage
+06:07:06.722 	Meter.calculate_statistics
+06:07:06.722 	Meter.calculate_statistics: group not null and contains more 0
+06:07:06.722 	Meter.calculate_statistics: party_total: 0
+06:07:06.722 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:06.722 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:06.722 	Meter.calculate_statistics: percent: Non Numérique
+06:07:06.739 	GraphEngine.paint_meter: first switch value 0 0
+06:07:06.739 	GraphEngine.paint_meter: render damage
+06:07:07.735 	Meter.calculate_statistics
+06:07:07.735 	Meter.calculate_statistics: group not null and contains more 0
+06:07:07.735 	Meter.calculate_statistics: party_total: 0
+06:07:07.735 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:07.735 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:07.735 	Meter.calculate_statistics: percent: Non Numérique
+06:07:07.754 	GraphEngine.paint_meter: first switch value 0 0
+06:07:07.754 	GraphEngine.paint_meter: render damage
+06:07:08.749 	Meter.calculate_statistics
+06:07:08.749 	Meter.calculate_statistics: group not null and contains more 0
+06:07:08.749 	Meter.calculate_statistics: party_total: 0
+06:07:08.749 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:08.749 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:08.749 	Meter.calculate_statistics: percent: Non Numérique
+06:07:08.773 	GraphEngine.paint_meter: first switch value 0 0
+06:07:08.773 	GraphEngine.paint_meter: render damage
+06:07:09.763 	Meter.calculate_statistics
+06:07:09.763 	Meter.calculate_statistics: group not null and contains more 0
+06:07:09.763 	Meter.calculate_statistics: party_total: 0
+06:07:09.763 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:09.763 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:09.763 	Meter.calculate_statistics: percent: Non Numérique
+06:07:09.785 	GraphEngine.paint_meter: first switch value 0 0
+06:07:09.785 	GraphEngine.paint_meter: render damage
+06:07:10.777 	Meter.calculate_statistics
+06:07:10.777 	Meter.calculate_statistics: group not null and contains more 0
+06:07:10.777 	Meter.calculate_statistics: party_total: 0
+06:07:10.777 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:10.777 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:10.777 	Meter.calculate_statistics: percent: Non Numérique
+06:07:10.799 	GraphEngine.paint_meter: first switch value 0 0
+06:07:10.799 	GraphEngine.paint_meter: render damage
+06:07:11.792 	Meter.calculate_statistics
+06:07:11.792 	Meter.calculate_statistics: group not null and contains more 0
+06:07:11.792 	Meter.calculate_statistics: party_total: 0
+06:07:11.792 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:11.792 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:11.792 	Meter.calculate_statistics: percent: Non Numérique
+06:07:11.814 	GraphEngine.paint_meter: first switch value 0 0
+06:07:11.814 	GraphEngine.paint_meter: render damage
+06:07:12.805 	Meter.calculate_statistics
+06:07:12.805 	Meter.calculate_statistics: group not null and contains more 0
+06:07:12.805 	Meter.calculate_statistics: party_total: 0
+06:07:12.805 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:12.805 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:12.805 	Meter.calculate_statistics: percent: Non Numérique
+06:07:12.825 	GraphEngine.paint_meter: first switch value 0 0
+06:07:12.825 	GraphEngine.paint_meter: render damage
+06:07:13.819 	Meter.calculate_statistics
+06:07:13.819 	Meter.calculate_statistics: group not null and contains more 0
+06:07:13.819 	Meter.calculate_statistics: party_total: 0
+06:07:13.819 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:13.819 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:13.819 	Meter.calculate_statistics: percent: Non Numérique
+06:07:13.839 	GraphEngine.paint_meter: first switch value 0 0
+06:07:13.839 	GraphEngine.paint_meter: render damage
+06:07:14.834 	Meter.calculate_statistics
+06:07:14.834 	Meter.calculate_statistics: group not null and contains more 0
+06:07:14.834 	Meter.calculate_statistics: party_total: 0
+06:07:14.834 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:14.834 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:14.834 	Meter.calculate_statistics: percent: Non Numérique
+06:07:14.852 	GraphEngine.paint_meter: first switch value 0 0
+06:07:14.852 	GraphEngine.paint_meter: render damage
+06:07:15.847 	Meter.calculate_statistics
+06:07:15.847 	Meter.calculate_statistics: group not null and contains more 0
+06:07:15.847 	Meter.calculate_statistics: party_total: 0
+06:07:15.847 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:15.847 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:15.847 	Meter.calculate_statistics: percent: Non Numérique
+06:07:15.864 	GraphEngine.paint_meter: first switch value 0 0
+06:07:15.864 	GraphEngine.paint_meter: render damage
+06:07:16.861 	Meter.calculate_statistics
+06:07:16.861 	Meter.calculate_statistics: group not null and contains more 0
+06:07:16.861 	Meter.calculate_statistics: party_total: 0
+06:07:16.861 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:16.861 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:16.861 	Meter.calculate_statistics: percent: Non Numérique
+06:07:16.876 	GraphEngine.paint_meter: first switch value 0 0
+06:07:16.876 	GraphEngine.paint_meter: render damage
+06:07:17.876 	Meter.calculate_statistics
+06:07:17.876 	Meter.calculate_statistics: group not null and contains more 0
+06:07:17.876 	Meter.calculate_statistics: party_total: 0
+06:07:17.876 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:17.876 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:17.876 	Meter.calculate_statistics: percent: Non Numérique
+06:07:17.889 	GraphEngine.paint_meter: first switch value 0 0
+06:07:17.889 	GraphEngine.paint_meter: render damage
+06:07:18.889 	Meter.calculate_statistics
+06:07:18.889 	Meter.calculate_statistics: group not null and contains more 0
+06:07:18.889 	Meter.calculate_statistics: party_total: 0
+06:07:18.889 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:18.889 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:18.889 	Meter.calculate_statistics: percent: Non Numérique
+06:07:18.905 	GraphEngine.paint_meter: first switch value 0 0
+06:07:18.905 	GraphEngine.paint_meter: render damage
+06:07:19.906 	Meter.calculate_statistics
+06:07:19.906 	Meter.calculate_statistics: group not null and contains more 0
+06:07:19.906 	Meter.calculate_statistics: party_total: 0
+06:07:19.906 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:19.906 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:19.906 	Meter.calculate_statistics: percent: Non Numérique
+06:07:19.924 	GraphEngine.paint_meter: first switch value 0 0
+06:07:19.924 	GraphEngine.paint_meter: render damage
+06:07:20.916 	Meter.calculate_statistics
+06:07:20.916 	Meter.calculate_statistics: group not null and contains more 0
+06:07:20.916 	Meter.calculate_statistics: party_total: 0
+06:07:20.916 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:20.916 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:20.916 	Meter.calculate_statistics: percent: Non Numérique
+06:07:20.933 	GraphEngine.paint_meter: first switch value 0 0
+06:07:20.933 	GraphEngine.paint_meter: render damage
+06:07:21.931 	Meter.calculate_statistics
+06:07:21.931 	Meter.calculate_statistics: group not null and contains more 0
+06:07:21.931 	Meter.calculate_statistics: party_total: 0
+06:07:21.931 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:21.931 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:21.931 	Meter.calculate_statistics: percent: Non Numérique
+06:07:21.951 	GraphEngine.paint_meter: first switch value 0 0
+06:07:21.951 	GraphEngine.paint_meter: render damage
+06:07:22.946 	Meter.calculate_statistics
+06:07:22.946 	Meter.calculate_statistics: group not null and contains more 0
+06:07:22.946 	Meter.calculate_statistics: party_total: 0
+06:07:22.946 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:22.946 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:22.946 	Meter.calculate_statistics: percent: Non Numérique
+06:07:22.963 	GraphEngine.paint_meter: first switch value 0 0
+06:07:22.963 	GraphEngine.paint_meter: render damage
+06:07:23.960 	Meter.calculate_statistics
+06:07:23.960 	Meter.calculate_statistics: group not null and contains more 0
+06:07:23.960 	Meter.calculate_statistics: party_total: 0
+06:07:23.960 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:23.960 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:23.960 	Meter.calculate_statistics: percent: Non Numérique
+06:07:23.975 	GraphEngine.paint_meter: first switch value 0 0
+06:07:23.975 	GraphEngine.paint_meter: render damage
+06:07:24.981 	Meter.calculate_statistics
+06:07:24.981 	Meter.calculate_statistics: group not null and contains more 0
+06:07:24.982 	Meter.calculate_statistics: party_total: 0
+06:07:24.982 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:24.982 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:24.982 	Meter.calculate_statistics: percent: Non Numérique
+06:07:25.005 	GraphEngine.paint_meter: first switch value 0 0
+06:07:25.005 	GraphEngine.paint_meter: render damage
+06:07:25.987 	Meter.calculate_statistics
+06:07:25.987 	Meter.calculate_statistics: group not null and contains more 0
+06:07:25.987 	Meter.calculate_statistics: party_total: 0
+06:07:25.987 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:25.987 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:25.987 	Meter.calculate_statistics: percent: Non Numérique
+06:07:26.011 	GraphEngine.paint_meter: first switch value 0 0
+06:07:26.011 	GraphEngine.paint_meter: render damage
+06:07:27.002 	Meter.calculate_statistics
+06:07:27.002 	Meter.calculate_statistics: group not null and contains more 0
+06:07:27.002 	Meter.calculate_statistics: party_total: 0
+06:07:27.002 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:27.002 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:27.002 	Meter.calculate_statistics: percent: Non Numérique
+06:07:27.023 	GraphEngine.paint_meter: first switch value 0 0
+06:07:27.024 	GraphEngine.paint_meter: render damage
+06:07:28.016 	Meter.calculate_statistics
+06:07:28.016 	Meter.calculate_statistics: group not null and contains more 0
+06:07:28.016 	Meter.calculate_statistics: party_total: 0
+06:07:28.016 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:28.016 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:28.016 	Meter.calculate_statistics: percent: Non Numérique
+06:07:28.037 	GraphEngine.paint_meter: first switch value 0 0
+06:07:28.037 	GraphEngine.paint_meter: render damage
+06:07:29.029 	Meter.calculate_statistics
+06:07:29.029 	Meter.calculate_statistics: group not null and contains more 0
+06:07:29.029 	Meter.calculate_statistics: party_total: 0
+06:07:29.029 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:29.029 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:29.029 	Meter.calculate_statistics: percent: Non Numérique
+06:07:29.050 	GraphEngine.paint_meter: first switch value 0 0
+06:07:29.050 	GraphEngine.paint_meter: render damage
+06:07:30.049 	Meter.calculate_statistics
+06:07:30.049 	Meter.calculate_statistics: group not null and contains more 0
+06:07:30.049 	Meter.calculate_statistics: party_total: 0
+06:07:30.049 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:30.049 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:30.049 	Meter.calculate_statistics: percent: Non Numérique
+06:07:30.069 	GraphEngine.paint_meter: first switch value 0 0
+06:07:30.069 	GraphEngine.paint_meter: render damage
+06:07:31.064 	Meter.calculate_statistics
+06:07:31.064 	Meter.calculate_statistics: group not null and contains more 0
+06:07:31.064 	Meter.calculate_statistics: party_total: 0
+06:07:31.064 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:31.064 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:31.064 	Meter.calculate_statistics: percent: Non Numérique
+06:07:31.086 	GraphEngine.paint_meter: first switch value 0 0
+06:07:31.086 	GraphEngine.paint_meter: render damage
+06:07:32.071 	Meter.calculate_statistics
+06:07:32.071 	Meter.calculate_statistics: group not null and contains more 0
+06:07:32.071 	Meter.calculate_statistics: party_total: 0
+06:07:32.071 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:32.071 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:32.071 	Meter.calculate_statistics: percent: Non Numérique
+06:07:32.088 	GraphEngine.paint_meter: first switch value 0 0
+06:07:32.088 	GraphEngine.paint_meter: render damage
+06:07:33.085 	Meter.calculate_statistics
+06:07:33.085 	Meter.calculate_statistics: group not null and contains more 0
+06:07:33.085 	Meter.calculate_statistics: party_total: 0
+06:07:33.086 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:33.086 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:33.086 	Meter.calculate_statistics: percent: Non Numérique
+06:07:33.104 	GraphEngine.paint_meter: first switch value 0 0
+06:07:33.104 	GraphEngine.paint_meter: render damage
+06:07:34.099 	Meter.calculate_statistics
+06:07:34.099 	Meter.calculate_statistics: group not null and contains more 0
+06:07:34.099 	Meter.calculate_statistics: party_total: 0
+06:07:34.099 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:34.099 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:34.099 	Meter.calculate_statistics: percent: Non Numérique
+06:07:34.116 	GraphEngine.paint_meter: first switch value 0 0
+06:07:34.116 	GraphEngine.paint_meter: render damage
+06:07:35.114 	Meter.calculate_statistics
+06:07:35.114 	Meter.calculate_statistics: group not null and contains more 0
+06:07:35.114 	Meter.calculate_statistics: party_total: 0
+06:07:35.114 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:35.114 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:35.114 	Meter.calculate_statistics: percent: Non Numérique
+06:07:35.130 	GraphEngine.paint_meter: first switch value 0 0
+06:07:35.130 	GraphEngine.paint_meter: render damage
+06:07:36.127 	Meter.calculate_statistics
+06:07:36.127 	Meter.calculate_statistics: group not null and contains more 0
+06:07:36.127 	Meter.calculate_statistics: party_total: 0
+06:07:36.127 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:36.127 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:36.127 	Meter.calculate_statistics: percent: Non Numérique
+06:07:36.150 	GraphEngine.paint_meter: first switch value 0 0
+06:07:36.150 	GraphEngine.paint_meter: render damage
+06:07:37.142 	Meter.calculate_statistics
+06:07:37.142 	Meter.calculate_statistics: group not null and contains more 0
+06:07:37.142 	Meter.calculate_statistics: party_total: 0
+06:07:37.142 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:37.143 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:37.143 	Meter.calculate_statistics: percent: Non Numérique
+06:07:37.168 	GraphEngine.paint_meter: first switch value 0 0
+06:07:37.168 	GraphEngine.paint_meter: render damage
+06:07:38.157 	Meter.calculate_statistics
+06:07:38.157 	Meter.calculate_statistics: group not null and contains more 0
+06:07:38.157 	Meter.calculate_statistics: party_total: 0
+06:07:38.157 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:38.157 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:38.157 	Meter.calculate_statistics: percent: Non Numérique
+06:07:38.201 	GraphEngine.paint_meter: first switch value 0 0
+06:07:38.201 	GraphEngine.paint_meter: render damage
+06:07:39.171 	Meter.calculate_statistics
+06:07:39.171 	Meter.calculate_statistics: group not null and contains more 0
+06:07:39.171 	Meter.calculate_statistics: party_total: 0
+06:07:39.171 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:39.171 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:39.171 	Meter.calculate_statistics: percent: Non Numérique
+06:07:39.199 	GraphEngine.paint_meter: first switch value 0 0
+06:07:39.199 	GraphEngine.paint_meter: render damage
+06:07:40.184 	Meter.calculate_statistics
+06:07:40.184 	Meter.calculate_statistics: group not null and contains more 0
+06:07:40.184 	Meter.calculate_statistics: party_total: 0
+06:07:40.184 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:40.184 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:40.184 	Meter.calculate_statistics: percent: Non Numérique
+06:07:40.217 	GraphEngine.paint_meter: first switch value 0 0
+06:07:40.217 	GraphEngine.paint_meter: render damage
+06:07:41.198 	Meter.calculate_statistics
+06:07:41.198 	Meter.calculate_statistics: group not null and contains more 0
+06:07:41.198 	Meter.calculate_statistics: party_total: 0
+06:07:41.198 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:41.198 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:41.198 	Meter.calculate_statistics: percent: Non Numérique
+06:07:41.222 	GraphEngine.paint_meter: first switch value 0 0
+06:07:41.222 	GraphEngine.paint_meter: render damage
+06:07:42.212 	Meter.calculate_statistics
+06:07:42.212 	Meter.calculate_statistics: group not null and contains more 0
+06:07:42.212 	Meter.calculate_statistics: party_total: 0
+06:07:42.212 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:42.212 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:42.212 	Meter.calculate_statistics: percent: Non Numérique
+06:07:42.238 	GraphEngine.paint_meter: first switch value 0 0
+06:07:42.238 	GraphEngine.paint_meter: render damage
+06:07:43.225 	Meter.calculate_statistics
+06:07:43.225 	Meter.calculate_statistics: group not null and contains more 0
+06:07:43.225 	Meter.calculate_statistics: party_total: 0
+06:07:43.225 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:43.225 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:43.226 	Meter.calculate_statistics: percent: Non Numérique
+06:07:43.251 	GraphEngine.paint_meter: first switch value 0 0
+06:07:43.251 	GraphEngine.paint_meter: render damage
+06:07:44.239 	Meter.calculate_statistics
+06:07:44.239 	Meter.calculate_statistics: group not null and contains more 0
+06:07:44.239 	Meter.calculate_statistics: party_total: 0
+06:07:44.239 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:44.239 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:44.239 	Meter.calculate_statistics: percent: Non Numérique
+06:07:44.263 	GraphEngine.paint_meter: first switch value 0 0
+06:07:44.263 	GraphEngine.paint_meter: render damage
+06:07:45.254 	Meter.calculate_statistics
+06:07:45.254 	Meter.calculate_statistics: group not null and contains more 0
+06:07:45.254 	Meter.calculate_statistics: party_total: 0
+06:07:45.254 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:45.254 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:45.254 	Meter.calculate_statistics: percent: Non Numérique
+06:07:45.277 	GraphEngine.paint_meter: first switch value 0 0
+06:07:45.277 	GraphEngine.paint_meter: render damage
+06:07:46.267 	Meter.calculate_statistics
+06:07:46.267 	Meter.calculate_statistics: group not null and contains more 0
+06:07:46.267 	Meter.calculate_statistics: party_total: 0
+06:07:46.267 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:46.267 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:46.267 	Meter.calculate_statistics: percent: Non Numérique
+06:07:46.289 	GraphEngine.paint_meter: first switch value 0 0
+06:07:46.289 	GraphEngine.paint_meter: render damage
+06:07:47.281 	Meter.calculate_statistics
+06:07:47.281 	Meter.calculate_statistics: group not null and contains more 0
+06:07:47.281 	Meter.calculate_statistics: party_total: 0
+06:07:47.281 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:47.281 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:47.282 	Meter.calculate_statistics: percent: Non Numérique
+06:07:47.305 	GraphEngine.paint_meter: first switch value 0 0
+06:07:47.305 	GraphEngine.paint_meter: render damage
+06:07:48.297 	Meter.calculate_statistics
+06:07:48.297 	Meter.calculate_statistics: group not null and contains more 0
+06:07:48.297 	Meter.calculate_statistics: party_total: 0
+06:07:48.297 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:48.297 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:48.297 	Meter.calculate_statistics: percent: Non Numérique
+06:07:48.320 	GraphEngine.paint_meter: first switch value 0 0
+06:07:48.320 	GraphEngine.paint_meter: render damage
+06:07:49.310 	Meter.calculate_statistics
+06:07:49.310 	Meter.calculate_statistics: group not null and contains more 0
+06:07:49.310 	Meter.calculate_statistics: party_total: 0
+06:07:49.310 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:49.310 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:49.310 	Meter.calculate_statistics: percent: Non Numérique
+06:07:49.338 	GraphEngine.paint_meter: first switch value 0 0
+06:07:49.338 	GraphEngine.paint_meter: render damage
+06:07:50.323 	Meter.calculate_statistics
+06:07:50.323 	Meter.calculate_statistics: group not null and contains more 0
+06:07:50.323 	Meter.calculate_statistics: party_total: 0
+06:07:50.323 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:50.323 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:50.323 	Meter.calculate_statistics: percent: Non Numérique
+06:07:50.338 	GraphEngine.paint_meter: first switch value 0 0
+06:07:50.338 	GraphEngine.paint_meter: render damage
+06:07:51.337 	Meter.calculate_statistics
+06:07:51.337 	Meter.calculate_statistics: group not null and contains more 0
+06:07:51.337 	Meter.calculate_statistics: party_total: 0
+06:07:51.337 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:51.337 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:51.337 	Meter.calculate_statistics: percent: Non Numérique
+06:07:51.352 	GraphEngine.paint_meter: first switch value 0 0
+06:07:51.353 	GraphEngine.paint_meter: render damage
+06:07:52.351 	Meter.calculate_statistics
+06:07:52.351 	Meter.calculate_statistics: group not null and contains more 0
+06:07:52.351 	Meter.calculate_statistics: party_total: 0
+06:07:52.351 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:52.351 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:52.351 	Meter.calculate_statistics: percent: Non Numérique
+06:07:52.373 	GraphEngine.paint_meter: first switch value 0 0
+06:07:52.373 	GraphEngine.paint_meter: render damage
+06:07:53.365 	Meter.calculate_statistics
+06:07:53.365 	Meter.calculate_statistics: group not null and contains more 0
+06:07:53.365 	Meter.calculate_statistics: party_total: 0
+06:07:53.365 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:53.365 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:53.365 	Meter.calculate_statistics: percent: Non Numérique
+06:07:53.387 	GraphEngine.paint_meter: first switch value 0 0
+06:07:53.387 	GraphEngine.paint_meter: render damage
+06:07:54.379 	Meter.calculate_statistics
+06:07:54.379 	Meter.calculate_statistics: group not null and contains more 0
+06:07:54.379 	Meter.calculate_statistics: party_total: 0
+06:07:54.379 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:54.379 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:54.379 	Meter.calculate_statistics: percent: Non Numérique
+06:07:54.402 	GraphEngine.paint_meter: first switch value 0 0
+06:07:54.402 	GraphEngine.paint_meter: render damage
+06:07:55.396 	Meter.calculate_statistics
+06:07:55.396 	Meter.calculate_statistics: group not null and contains more 0
+06:07:55.396 	Meter.calculate_statistics: party_total: 0
+06:07:55.396 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:55.396 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:55.396 	Meter.calculate_statistics: percent: Non Numérique
+06:07:55.416 	GraphEngine.paint_meter: first switch value 0 0
+06:07:55.416 	GraphEngine.paint_meter: render damage
+06:07:56.407 	Meter.calculate_statistics
+06:07:56.407 	Meter.calculate_statistics: group not null and contains more 0
+06:07:56.407 	Meter.calculate_statistics: party_total: 0
+06:07:56.407 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:56.407 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:56.407 	Meter.calculate_statistics: percent: Non Numérique
+06:07:56.424 	GraphEngine.paint_meter: first switch value 0 0
+06:07:56.424 	GraphEngine.paint_meter: render damage
+06:07:57.422 	Meter.calculate_statistics
+06:07:57.422 	Meter.calculate_statistics: group not null and contains more 0
+06:07:57.422 	Meter.calculate_statistics: party_total: 0
+06:07:57.422 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:57.422 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:57.422 	Meter.calculate_statistics: percent: Non Numérique
+06:07:57.442 	GraphEngine.paint_meter: first switch value 0 0
+06:07:57.442 	GraphEngine.paint_meter: render damage
+06:07:58.436 	Meter.calculate_statistics
+06:07:58.436 	Meter.calculate_statistics: group not null and contains more 0
+06:07:58.436 	Meter.calculate_statistics: party_total: 0
+06:07:58.436 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:58.436 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:58.436 	Meter.calculate_statistics: percent: Non Numérique
+06:07:58.455 	GraphEngine.paint_meter: first switch value 0 0
+06:07:58.455 	GraphEngine.paint_meter: render damage
+06:07:59.450 	Meter.calculate_statistics
+06:07:59.450 	Meter.calculate_statistics: group not null and contains more 0
+06:07:59.450 	Meter.calculate_statistics: party_total: 0
+06:07:59.450 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:07:59.450 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:07:59.450 	Meter.calculate_statistics: percent: Non Numérique
+06:07:59.465 	GraphEngine.paint_meter: first switch value 0 0
+06:07:59.465 	GraphEngine.paint_meter: render damage
+06:08:00.463 	Meter.calculate_statistics
+06:08:00.463 	Meter.calculate_statistics: group not null and contains more 0
+06:08:00.463 	Meter.calculate_statistics: party_total: 0
+06:08:00.463 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:08:00.463 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:08:00.463 	Meter.calculate_statistics: percent: Non Numérique
+06:08:00.484 	GraphEngine.paint_meter: first switch value 0 0
+06:08:00.484 	GraphEngine.paint_meter: render damage
+06:08:01.477 	Meter.calculate_statistics
+06:08:01.477 	Meter.calculate_statistics: group not null and contains more 0
+06:08:01.477 	Meter.calculate_statistics: party_total: 0
+06:08:01.477 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:08:01.477 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:08:01.477 	Meter.calculate_statistics: percent: Non Numérique
+06:08:01.495 	GraphEngine.paint_meter: first switch value 0 0
+06:08:01.495 	GraphEngine.paint_meter: render damage
+06:08:02.491 	Meter.calculate_statistics
+06:08:02.491 	Meter.calculate_statistics: group not null and contains more 0
+06:08:02.491 	Meter.calculate_statistics: party_total: 0
+06:08:02.491 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:08:02.491 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:08:02.491 	Meter.calculate_statistics: percent: Non Numérique
+06:08:02.506 	GraphEngine.paint_meter: first switch value 0 0
+06:08:02.506 	GraphEngine.paint_meter: render damage
+06:08:03.505 	Meter.calculate_statistics
+06:08:03.505 	Meter.calculate_statistics: group not null and contains more 0
+06:08:03.505 	Meter.calculate_statistics: party_total: 0
+06:08:03.505 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:08:03.505 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:08:03.505 	Meter.calculate_statistics: percent: Non Numérique
+06:08:03.523 	GraphEngine.paint_meter: first switch value 0 0
+06:08:03.523 	GraphEngine.paint_meter: render damage
+06:08:04.519 	Meter.calculate_statistics
+06:08:04.519 	Meter.calculate_statistics: group not null and contains more 0
+06:08:04.519 	Meter.calculate_statistics: party_total: 0
+06:08:04.519 	Meter.calculate_statistics: DPS & HPS: 0 0
+06:08:04.519 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+06:08:04.519 	Meter.calculate_statistics: percent: Non Numérique
+06:08:04.544 	GraphEngine.paint_meter: first switch value 0 0
+06:08:04.544 	GraphEngine.paint_meter: render damage
+06:08:05.533 	Meter.calculate_statistics
+06:08:05.533 	Meter.calculate_statistics: group not null and contains more 0
+06:08:05.533 	Meter.calculate_statistics: party_total: 0
+06:08:05.533 	Meter.calculate_statistics: DPS & HPS: 0 0

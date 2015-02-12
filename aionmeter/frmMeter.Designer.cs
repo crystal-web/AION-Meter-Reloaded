@@ -181,8 +181,8 @@
             // 
             // syncMacroToolStripMenuItem
             // 
-            this.syncMacroToolStripMenuItem.Name = "syncMacroToolStripMenuItem";
             resources.ApplyResources(this.syncMacroToolStripMenuItem, "syncMacroToolStripMenuItem");
+            this.syncMacroToolStripMenuItem.Name = "syncMacroToolStripMenuItem";
             this.syncMacroToolStripMenuItem.Click += new System.EventHandler(this.syncMacroToolStripMenuItem_Click);
             // 
             // addGroupMemberToolStripMenuItem
@@ -221,26 +221,26 @@
             // 
             // donateToolStripMenuItem
             // 
-            resources.ApplyResources(this.donateToolStripMenuItem, "donateToolStripMenuItem");
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
+            resources.ApplyResources(this.donateToolStripMenuItem, "donateToolStripMenuItem");
             this.donateToolStripMenuItem.Click += new System.EventHandler(this.donateToolStripMenuItem_Click);
             // 
             // userGuideToolStripMenuItem
             // 
-            resources.ApplyResources(this.userGuideToolStripMenuItem, "userGuideToolStripMenuItem");
             this.userGuideToolStripMenuItem.Name = "userGuideToolStripMenuItem";
+            resources.ApplyResources(this.userGuideToolStripMenuItem, "userGuideToolStripMenuItem");
             this.userGuideToolStripMenuItem.Click += new System.EventHandler(this.userGuideToolStripMenuItem_Click);
             // 
             // fAQToolStripMenuItem
             // 
-            resources.ApplyResources(this.fAQToolStripMenuItem, "fAQToolStripMenuItem");
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
+            resources.ApplyResources(this.fAQToolStripMenuItem, "fAQToolStripMenuItem");
             this.fAQToolStripMenuItem.Click += new System.EventHandler(this.fAQToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
-            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // progressbar

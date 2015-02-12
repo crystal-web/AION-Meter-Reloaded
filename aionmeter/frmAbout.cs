@@ -44,7 +44,7 @@ namespace AIONMeter
 
         private void frmAbout_Load(object sender, EventArgs e)
         {
-            lblVersion.Text = "Version: " + Updater.get_version().ToString();
+            lblVersion.Text = "Version: " + Application.ProductVersion;
         }
 
         private void cmdCheckUpdates_Click(object sender, EventArgs e)

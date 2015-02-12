@@ -24,12 +24,18 @@ using System.Threading;
 using System.Security.Principal;
 using System.Diagnostics;
 
+using System.Runtime.InteropServices;
 namespace AIONMeter
 {
     static class Program
     {
+        // Guid de AIONMeter-Reloaded
+        public static readonly Guid guid = // (Guid)System.Reflection.Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(GuidAttribute), true)[0];
+            new Guid("3b48a4dc-8c28-440a-a687-3c449676132c");
+
         public static frmMeter main_window;
         public static Boolean logEvent = true;
+        public static LogWriter writer = LogWriter.Instance;
 
         /// <summary>
         /// The main entry point for the application.
@@ -37,66 +43,64 @@ namespace AIONMeter
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            frmSplashscreen splash = new frmSplashscreen();
-
-            // Test is administrator ?
-            // app.manifest include
-            bool isElevated;
-            WindowsIdentity identity = WindowsIdentity.GetCurrent();
-            WindowsPrincipal principal = new WindowsPrincipal(identity);
-            isElevated = principal.IsInRole(WindowsBuiltInRole.Administrator);
-            if (!isElevated)
+            // Pas lancé deux fois ^^
+            using (Mutex mutex = new Mutex(false, "Global\\" + guid))
             {
-                DialogResult result = MessageBox.Show("Unauthorized Access, please run this application in Administrator mode", 
-                    "Unauthorized Access", 
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning,
-                    MessageBoxDefaultButton.Button1);
-                // Force close
-                Process.GetCurrentProcess().Kill();
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+
+                writer.WriteToLog("Running application guid:" + guid + " version:" + Application.ProductVersion);
+
+                if (!mutex.WaitOne(0, false))
+                {
+                    MessageBox.Show("Can not run multi instance off this AIONMeter-Reloaded");
+                    return;
+                }
+
+                if (!isAdministrator())
+                {
+                    DialogResult result = MessageBox.Show(
+                        "Unauthorized Access, please run this application in Administrator mode",
+                        "Unauthorized Access",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning,
+                        MessageBoxDefaultButton.Button1
+                    );
+                    return;
+                }
+
+                isConfigReady(); // void
+
+                // https://raw.githubusercontent.com/crystal-web/AION-Meter-Reloaded/master/Release/updates.txt
+                // Application.ProductVersion
+
+
+                // Try to switch to configured locale
+                try { Thread.CurrentThread.CurrentUICulture = new CultureInfo(Config.get_language()); }
+                catch (Exception e)
+                {
+                    MessageBox.Show("The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
+                        "Language Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                    Config.set_language("en-US");
+                }
+
+                // Game splash ^^
+                frmSplashscreen splash = new frmSplashscreen();
+
+                
+
+
+
+                minifyLog(0);
+
+                splash.hideSplash();
+
+                main_window = new frmMeter();
+                Application.Run(main_window);
+
             }
-
-            // Try to switch to configured locale
-            try { Thread.CurrentThread.CurrentUICulture = new CultureInfo(Config.get_language()); }
-            catch (Exception e)
-            {
-                MessageBox.Show("The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
-                    "Language Error",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
-                Config.set_language("en-US");
-            }
-
-
-
-
-
-            Config.set_application_path(Application.StartupPath);
-            Updater.check(false); // check for updates
-
-            if (!Config.settings_upgraded())
-            {
-                Config.upgrade_settings();
-            }
-
-            if (!Config.game_path_exists()) // if AION path is not configured yet, do so
-            {
-                MessageBox.Show("Please set the path for your AION installation", "Need AION path", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                frmConfig cfg = new frmConfig();
-                cfg.ShowDialog();
-            }
-
-            LogWriter writer = LogWriter.Instance;
-            writer.WriteToLog("Vroum");
-
-            minifyLog(0);
-
-            splash.hideSplash();
-
-            main_window = new frmMeter();
-            Application.Run(main_window);
         }
 
         /**
@@ -126,6 +130,75 @@ namespace AIONMeter
                 Array.Copy(lines, lines.Length - maxLineCount, linesToCopy, 0, maxLineCount);
                 // On ecrire le fichier log
                 File.WriteAllLines(logSourcePath + "/Chat.log", linesToCopy);
+            }
+        }
+
+        /**
+         * Test is administrator ?
+         * app.manifest include ?
+         */
+        static bool isAdministrator() {
+            bool isElevated;
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            isElevated = principal.IsInRole(WindowsBuiltInRole.Administrator);
+            if (!isElevated)
+            {
+                return false;
+                // Force close 
+                // Process.GetCurrentProcess().Kill();
+            }
+            return true;
+        }
+
+        static void isConfigReady()
+        {
+            Config.set_application_path(Application.StartupPath);
+            Updater.check(false); // check for updates
+
+            if (!Config.settings_upgraded())
+            {
+                Config.upgrade_settings();
+            }
+
+            if (!Config.game_path_exists()) // if AION path is not configured yet, do so
+            {
+                MessageBox.Show("Please set the path for your AION installation", "Need AION path", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                frmConfig cfg = new frmConfig();
+                cfg.ShowDialog();
+            }
+        }
+
+        static void versionControl()
+        {
+            // get the running version
+            // Version curVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            string curVersion = Application.ProductVersion;
+            string lastBuildVersion = (new System.Net.WebClient()).DownloadString("https://raw.githubusercontent.com/crystal-web/AION-Meter-Reloaded/master/Release/updates.txt");
+
+            var version1 = new Version(curVersion);
+            var version2 = new Version(lastBuildVersion);
+
+            var result = version1.CompareTo(version2);
+            if (result > 0)
+            {
+                writer.WriteToLog("curVersion is greater, are you developper ? ^^");
+            }
+            else if (result < 0)
+            {
+                writer.WriteToLog("lastBuildVersion is greater");
+                if (System.Windows.Forms.MessageBox.Show(
+                    "There is a new AIONMeter-Reloaded version avaible for download! Would you like to download it now?", 
+                    "Update Check", 
+                    System.Windows.Forms.MessageBoxButtons.YesNo, 
+                    System.Windows.Forms.MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes
+                ) {
+                    System.Diagnostics.Process.Start("https://github.com/crystal-web/AION-Meter-Reloaded/tree/master/Release");
+                }
+            }
+            else
+            {
+                writer.WriteToLog("versions are equal");
             }
         }
     }

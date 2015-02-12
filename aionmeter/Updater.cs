@@ -22,6 +22,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 
+// TODO remove or change this file ^^ Update test is run in Program.cs
 namespace AIONMeter
 {
     public static class Updater

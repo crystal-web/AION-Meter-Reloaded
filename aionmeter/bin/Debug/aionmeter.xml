@@ -114,6 +114,10 @@
         <member name="M:AIONMeter.Program.minifyLog(System.Int32)">
             TODO Devrait-on pas vidé le fichier de log ? maxLineCount à 0 pour vidé
         </member>
+        <member name="M:AIONMeter.Program.isAdministrator">
+            Test is administrator ?
+            app.manifest include ?
+        </member>
         <member name="T:AIONMeter.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
