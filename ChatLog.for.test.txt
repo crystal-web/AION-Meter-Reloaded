@@ -1,0 +1,19 @@
+2015.02.12 15:23:55 : Vous avez infligé 1.132 points de dégâts à Mannequin d'entraînement. 
+2015.02.12 15:23:58 : Vous avez infligé 853 points de dégâts à Mannequin d'entraînement. 
+2015.02.12 15:24:00 : Coup critique ! Vous avez infligé 1.093 points de dégâts critiques à Mannequin d'entraînement. 
+2015.02.12 15:24:54 : Matrix a récupéré 1.134 PV car Myhria a utilisé Sort de récupération IV. 
+2015.02.12 15:24:56 : Myhria a récupéré 32 PM grâce à Effet de Mantra d'invincibilité I. 
+2015.02.12 15:24:58 : Matrix a récupéré 1.134 PV grâce à Sort de récupération IV. 
+2015.02.12 15:25:07 : Vous avez infligé 784 points de dégâts à Mannequin d'entraînement. 
+2015.02.12 15:25:07 : Matrix voit sa PV s'améliorer car Myhria a utilisé Louange de la vie I. 
+2015.02.12 15:25:08 : Matrix voit sa PV;Suppression magique s'améliorer car Myhria a utilisé Bénédiction de Pierre I. 
+2015.02.12 15:25:09 : Matrix a récupéré 32 PM grâce à Effet de Mantra d'invincibilité I.
+2015.02.12 15:25:30 : Mannequin d'entraînement n'est plus entravé. 
+2015.02.12 15:25:40 : La vitesse de déplacement de Mannequin d'entraînement est revenue à la normale. 
+2015.02.12 15:25:40 : Vous avez infligé 1.005 points de dégâts à Mannequin d'entraînement en utilisant Verrouillage VI. 
+2015.02.12 15:26:25 : Zanarckan a modifié sa Attaque en utilisant Tirs puissants I. 
+2015.02.12 15:26:26 : Zanarckan a modifié sa Distance d'att. en utilisant Fureur de la bête I. 
+2015.02.12 15:29:46 : Rezenta n'est plus étourdi. 
+
+2015.02.12 15:29:46 : Eizha a absorbé l'attaque de Rezenta grâce à un bouclier défensif. 
+2015.02.12 15:29:51 : Coup critique !Rezenta a infligé 241 points de dégâts à Eizha en utilisant Grand clivage III. 

@@ -89,6 +89,7 @@ namespace AIONMeter
                 Log entry = logQueue.Dequeue();
                 string logPath = logDir + "\\" + logFile + "_" + entry.LogDate + ".log";
 
+                // Issues n°4
                 try
                 {
                     // This could be optimised to prevent opening and closing the file for each write
@@ -100,10 +101,7 @@ namespace AIONMeter
                 }
                 catch (System.IO.IOException e)
                 {
-                    var rnd = new Random(); 
-                    WriteToLog(e.ToString());
-                    logFile = logFile + "_ioex_" + rnd.Next(0, 1000);
-                    FlushLog();
+                    MessageBox.Show("Sorry but logWriter can't write log to file...\n" + e.Message, "Log write file faild");
                 }
             }
 

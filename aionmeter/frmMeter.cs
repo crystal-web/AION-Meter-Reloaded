@@ -190,17 +190,17 @@ namespace AIONMeter
 
         private void fAQToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://code.google.com/p/aionmeter/wiki/FAQ");
+            System.Diagnostics.Process.Start("https://github.com/crystal-web/AION-Meter-Reloaded/wiki/FAQ-Questions-fr%C3%A9quentes");
         }
 
         private void userGuideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://code.google.com/p/aionmeter/wiki/UserGuide");
+            System.Diagnostics.Process.Start("https://github.com/crystal-web/AION-Meter-Reloaded/wiki");
         }
 
         private void donateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.aionmeter.com/donate/");
+            System.Diagnostics.Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7ZYD4ZZG3GYH6");
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -242,7 +242,7 @@ namespace AIONMeter
                     progressbar.Visible = true;
                 }
             }
-            catch (Exception e) { }
+            catch (Exception) { }
         }
 
         public void notify_progress_bar_finished()
