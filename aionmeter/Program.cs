@@ -42,6 +42,8 @@ namespace AIONMeter
         [STAThread]
         static void Main()
         {
+			// Control de version pour l'update
+			versionControl ();
 
 			iniFile = new IniFile ();
 			try {

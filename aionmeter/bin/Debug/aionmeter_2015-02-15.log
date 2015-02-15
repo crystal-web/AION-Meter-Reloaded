@@ -487,3 +487,39 @@
 08:59:24.518 	Meter.calculate_statistics: percent: Non Numérique
 08:59:24.530 	GraphEngine.paint_meter: first switch value 0 0
 08:59:24.530 	GraphEngine.paint_meter: render damage
+09:00:34.272 	versions are equal
+09:00:34.294 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.3
+09:00:44.717 	Player.Player: Vous
+09:00:44.720 	PetTracker.PetTracker: init the structure
+09:00:44.760 	Meter.calculate_statistics
+09:00:44.760 	Meter.calculate_statistics: group not null and contains more 0
+09:00:44.760 	Meter.calculate_statistics: party_total: 0
+09:00:44.760 	Meter.calculate_statistics: DPS & HPS: 0 0
+09:00:44.760 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+09:00:44.760 	Meter.calculate_statistics: percent: Non Numérique
+09:00:44.774 	GraphEngine.paint_meter: first switch value 0 0
+09:00:44.774 	GraphEngine.paint_meter: render damage
+09:00:45.734 	Meter.calculate_statistics
+09:00:45.734 	Meter.calculate_statistics: group not null and contains more 0
+09:00:45.734 	Meter.calculate_statistics: party_total: 0
+09:00:45.734 	Meter.calculate_statistics: DPS & HPS: 0 0
+09:00:45.734 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+09:00:45.734 	Meter.calculate_statistics: percent: Non Numérique
+09:00:45.744 	GraphEngine.paint_meter: first switch value 0 0
+09:00:45.744 	GraphEngine.paint_meter: render damage
+09:00:46.746 	Meter.calculate_statistics
+09:00:46.746 	Meter.calculate_statistics: group not null and contains more 0
+09:00:46.746 	Meter.calculate_statistics: party_total: 0
+09:00:46.747 	Meter.calculate_statistics: DPS & HPS: 0 0
+09:00:46.747 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+09:00:46.747 	Meter.calculate_statistics: percent: Non Numérique
+09:00:46.758 	GraphEngine.paint_meter: first switch value 0 0
+09:00:46.758 	GraphEngine.paint_meter: render damage
+09:00:47.760 	Meter.calculate_statistics
+09:00:47.760 	Meter.calculate_statistics: group not null and contains more 0
+09:00:47.760 	Meter.calculate_statistics: party_total: 0
+09:00:47.760 	Meter.calculate_statistics: DPS & HPS: 0 0
+09:00:47.760 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+09:00:47.760 	Meter.calculate_statistics: percent: Non Numérique
+09:00:47.770 	GraphEngine.paint_meter: first switch value 0 0
+09:00:47.770 	GraphEngine.paint_meter: render damage
