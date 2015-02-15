@@ -252,13 +252,13 @@
             // frmMeter
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.BackColor = System.Drawing.Color.Black;
             resources.ApplyResources(this, "$this");
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.lbl_status);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.Scene);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMeter";

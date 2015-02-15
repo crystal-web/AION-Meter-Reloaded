@@ -16,16 +16,10 @@ Hüseyin Uslu, <shalafiraistlin nospam gmail dot com>
 */
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using System.Reflection;
 using System.Resources;
 using System.Collections;
-using System.Globalization;
 
 namespace AIONMeter
 {

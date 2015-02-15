@@ -17,18 +17,17 @@ Hüseyin Uslu, <shalafiraistlin nospam gmail dot com>
 
 using System;
 using System.IO;
-using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Threading;
 using System.Security.Principal;
-using System.Diagnostics;
+using System.Net;
 
-using System.Runtime.InteropServices;
 namespace AIONMeter
 {
     static class Program
     {
+        public static IniFile iniFile;
         // Guid de AIONMeter-Reloaded
         public static readonly Guid guid = // (Guid)System.Reflection.Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(GuidAttribute), true)[0];
             new Guid("3b48a4dc-8c28-440a-a687-3c449676132c");
@@ -43,6 +42,17 @@ namespace AIONMeter
         [STAThread]
         static void Main()
         {
+
+			iniFile = new IniFile ();
+			try {
+				iniFile.IniFilePath("data/" + Config.get_language() + ".ini");
+			} catch(FileNotFoundException) {
+				using (WebClient Client = new WebClient ())
+				{
+					// Client.DownloadFile("http://www.abc.com/file/song/a.mpeg", "a.mpeg");
+				}
+			}
+
             // Pas lancé deux fois ^^
             using (Mutex mutex = new Mutex(false, "Global\\" + guid))
             {
@@ -77,7 +87,7 @@ namespace AIONMeter
 
                 // Try to switch to configured locale
                 try { Thread.CurrentThread.CurrentUICulture = new CultureInfo(Config.get_language()); }
-                catch (Exception e)
+                catch (Exception)
                 {
                     MessageBox.Show("The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
                         "Language Error",
@@ -90,7 +100,6 @@ namespace AIONMeter
                 frmSplashscreen splash = new frmSplashscreen();
 
                 
-
 
 
                 minifyLog(0);

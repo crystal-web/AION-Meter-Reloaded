@@ -531,5 +531,35 @@
             A Log class to store the message and the Date and Time the log entry was created
             </summary>
         </member>
+        <member name="T:AIONMeter.IniFile">
+            <summary>
+            Create a New INI file to store or load data
+            </summary>
+        </member>
+        <member name="M:AIONMeter.IniFile.IniFilePath(System.String)">
+            <summary>
+            INIFile Constructor.
+            </summary>
+            <param name="INIPath"></param>
+        </member>
+        <member name="M:AIONMeter.IniFile.IniWriteValue(System.String,System.String,System.String)">
+            <summary>
+            Write Data to the INI File
+            </summary>
+            <param name="Section"></param>
+            Section name
+            <param name="Key"></param>
+            Key Name
+            <param name="Value"></param>
+            Value Name
+        </member>
+        <member name="M:AIONMeter.IniFile.IniReadValue(System.String,System.String)">
+            <summary>
+            Read Data Value From the Ini File
+            </summary>
+            <param name="Section"></param>
+            <param name="Key"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
