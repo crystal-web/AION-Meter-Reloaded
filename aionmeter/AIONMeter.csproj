@@ -228,6 +228,7 @@
     </Compile>
     <Compile Include="Updater.cs" />
     <Compile Include="LogWriter.cs" />
+    <Compile Include="libs\IniFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -422,4 +423,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="libs\" />
+  </ItemGroup>
 </Project>

@@ -26,7 +26,7 @@ using System.Net;
 namespace AIONMeter
 {
     static class Program
-    {
+    { 
         public static IniFile iniFile;
         // Guid de AIONMeter-Reloaded
         public static readonly Guid guid = // (Guid)System.Reflection.Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(GuidAttribute), true)[0];
