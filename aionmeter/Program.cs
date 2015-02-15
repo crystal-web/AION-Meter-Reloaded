@@ -21,7 +21,7 @@ using System.Windows.Forms;
 using System.Globalization;
 using System.Threading;
 using System.Security.Principal;
-using System.Net;
+using System.Diagnostics;
 
 namespace AIONMeter
 {
@@ -42,18 +42,22 @@ namespace AIONMeter
         [STAThread]
         static void Main()
         {
-			// Control de version pour l'update
-			versionControl ();
-
 			iniFile = new IniFile ();
 			try {
-				iniFile.IniFilePath("data/" + Config.get_language() + ".ini");
+				iniFile.IniFilePath("language/" + Config.get_language() + ".ini");
 			} catch(FileNotFoundException) {
-				using (WebClient Client = new WebClient ())
+				DialogResult result1 = MessageBox.Show("Language file not found, please download file. Click Yes for download file. Save file into language folder.",
+					"Error, no language file",
+					MessageBoxButtons.YesNo);
+				if (result1 == DialogResult.Yes)
 				{
-					// Client.DownloadFile("http://www.abc.com/file/song/a.mpeg", "a.mpeg");
+					System.Diagnostics.Process.Start("https://github.com/crystal-web/AION-Meter-Reloaded/tree/master/language/" + Application.ProductVersion);
 				}
+				return;
 			}
+
+			// Control de version pour l'update
+			versionControl ();
 
             // Pas lancé deux fois ^^
             using (Mutex mutex = new Mutex(false, "Global\\" + guid))
@@ -65,7 +69,16 @@ namespace AIONMeter
 
                 if (!mutex.WaitOne(0, false))
                 {
-                    MessageBox.Show("Can not run multi instance off this AIONMeter-Reloaded");
+					DialogResult result1 = MessageBox.Show("Can not run multi instance off this AIONMeter-Reloaded. Kill all instance ?",
+						"Error, multi instance",
+						MessageBoxButtons.YesNo);
+					if (result1 == DialogResult.Yes)
+					{
+						foreach (Process proc in Process.GetProcessesByName(Process.GetCurrentProcess().ProcessName))
+						{
+							proc.Kill();
+						}
+					}
                     return;
                 }
 

@@ -523,3 +523,85 @@
 09:00:47.760 	Meter.calculate_statistics: percent: Non Numérique
 09:00:47.770 	GraphEngine.paint_meter: first switch value 0 0
 09:00:47.770 	GraphEngine.paint_meter: render damage
+10:58:05.924 	versions are equal
+10:58:06.014 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.3
+10:58:18.476 	Player.Player: Vous
+10:58:18.480 	PetTracker.PetTracker: init the structure
+10:58:18.594 	Meter.calculate_statistics
+10:58:18.594 	Meter.calculate_statistics: group not null and contains more 0
+10:58:18.594 	Meter.calculate_statistics: party_total: 0
+10:58:18.594 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:18.594 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:18.594 	Meter.calculate_statistics: percent: Non Numérique
+10:58:18.635 	GraphEngine.paint_meter: first switch value 0 0
+10:58:18.635 	GraphEngine.paint_meter: render damage
+10:58:19.473 	Meter.calculate_statistics
+10:58:19.473 	Meter.calculate_statistics: group not null and contains more 0
+10:58:19.473 	Meter.calculate_statistics: party_total: 0
+10:58:19.474 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:19.474 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:19.474 	Meter.calculate_statistics: percent: Non Numérique
+10:58:19.492 	GraphEngine.paint_meter: first switch value 0 0
+10:58:19.492 	GraphEngine.paint_meter: render damage
+10:58:41.280 	versions are equal
+10:58:41.297 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.3
+10:58:52.978 	Player.Player: Vous
+10:58:52.981 	PetTracker.PetTracker: init the structure
+10:58:53.140 	Meter.calculate_statistics
+10:58:53.140 	Meter.calculate_statistics: group not null and contains more 0
+10:58:53.140 	Meter.calculate_statistics: party_total: 0
+10:58:53.140 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:53.141 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:53.141 	Meter.calculate_statistics: percent: Non Numérique
+10:58:53.166 	GraphEngine.paint_meter: first switch value 0 0
+10:58:53.166 	GraphEngine.paint_meter: render damage
+10:58:54.043 	Meter.calculate_statistics
+10:58:54.043 	Meter.calculate_statistics: group not null and contains more 0
+10:58:54.043 	Meter.calculate_statistics: party_total: 0
+10:58:54.043 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:54.043 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:54.043 	Meter.calculate_statistics: percent: Non Numérique
+10:58:54.068 	GraphEngine.paint_meter: first switch value 0 0
+10:58:54.068 	GraphEngine.paint_meter: render damage
+10:58:55.057 	Meter.calculate_statistics
+10:58:55.058 	Meter.calculate_statistics: group not null and contains more 0
+10:58:55.058 	Meter.calculate_statistics: party_total: 0
+10:58:55.058 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:55.058 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:55.058 	Meter.calculate_statistics: percent: Non Numérique
+10:58:55.079 	GraphEngine.paint_meter: first switch value 0 0
+10:58:55.079 	GraphEngine.paint_meter: render damage
+10:58:56.070 	Meter.calculate_statistics
+10:58:56.070 	Meter.calculate_statistics: group not null and contains more 0
+10:58:56.070 	Meter.calculate_statistics: party_total: 0
+10:58:56.070 	Meter.calculate_statistics: DPS & HPS: 0 0
+10:58:56.070 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+10:58:56.070 	Meter.calculate_statistics: percent: Non Numérique
+10:58:56.085 	GraphEngine.paint_meter: first switch value 0 0
+10:58:56.085 	GraphEngine.paint_meter: render damage
+11:03:29.941 	curVersion is greater, are you developper ? ^^
+11:03:29.963 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.4
+11:03:41.792 	Meter.calculate_statistics
+11:03:41.792 	Meter.calculate_statistics !(group != null && group.members.Count > 0)
+11:03:41.796 	Player.Player: Vous
+11:03:41.798 	PetTracker.PetTracker: init the structure
+11:03:41.824 	GraphEngine.paint_meter: first switch value 0 0
+11:03:41.824 	GraphEngine.paint_meter: render damage
+11:03:41.843 	Meter.calculate_statistics
+11:03:41.843 	Meter.calculate_statistics: group not null and contains more 0
+11:03:41.843 	Meter.calculate_statistics: party_total: 0
+11:03:41.844 	Meter.calculate_statistics: DPS & HPS: 0 0
+11:03:41.844 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+11:03:41.844 	Meter.calculate_statistics: percent: Non Numérique
+11:03:41.857 	GraphEngine.paint_meter: first switch value 0 0
+11:03:41.857 	GraphEngine.paint_meter: render damage
+11:03:42.677 	Meter.calculate_statistics
+11:03:42.677 	Meter.calculate_statistics: group not null and contains more 0
+11:03:42.677 	Meter.calculate_statistics: party_total: 0
+11:03:42.677 	Meter.calculate_statistics: DPS & HPS: 0 0
+11:03:42.677 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+11:03:42.677 	Meter.calculate_statistics: percent: Non Numérique
+11:03:42.688 	GraphEngine.paint_meter: first switch value 0 0
+11:03:42.688 	GraphEngine.paint_meter: render damage
+11:15:46.048 	curVersion is greater, are you developper ? ^^
+11:15:46.049 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.4
