@@ -57,7 +57,7 @@ namespace AIONMeter
 			}
 
 			// Control de version pour l'update
-			versionControl ();
+			versionControl();
 
             // Pas lancé deux fois ^^
             using (Mutex mutex = new Mutex(false, "Global\\" + guid))
@@ -69,9 +69,11 @@ namespace AIONMeter
 
                 if (!mutex.WaitOne(0, false))
                 {
-					DialogResult result1 = MessageBox.Show("Can not run multi instance off this AIONMeter-Reloaded. Kill all instance ?",
+					DialogResult result1 = MessageBox.Show(
+						"Can not run multi instance off this AIONMeter-Reloaded. Kill all instance ?",
 						"Error, multi instance",
-						MessageBoxButtons.YesNo);
+						MessageBoxButtons.YesNo
+					);
 					if (result1 == DialogResult.Yes)
 					{
 						foreach (Process proc in Process.GetProcessesByName(Process.GetCurrentProcess().ProcessName))
@@ -82,6 +84,7 @@ namespace AIONMeter
                     return;
                 }
 
+				// Test si l'application est lancé en mode administrateur
                 if (!isAdministrator())
                 {
                     DialogResult result = MessageBox.Show(
@@ -169,11 +172,10 @@ namespace AIONMeter
             if (!isElevated)
             {
                 return false;
-                // Force close 
-                // Process.GetCurrentProcess().Kill();
             }
             return true;
         }
+
 
         static void isConfigReady()
         {
@@ -187,7 +189,12 @@ namespace AIONMeter
 
             if (!Config.game_path_exists()) // if AION path is not configured yet, do so
             {
-                MessageBox.Show("Please set the path for your AION installation", "Need AION path", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show(
+					"Please set the path for your AION installation", 
+					"Need AION path", 
+					MessageBoxButtons.OK, 
+					MessageBoxIcon.Exclamation
+				);
                 frmConfig cfg = new frmConfig();
                 cfg.ShowDialog();
             }
