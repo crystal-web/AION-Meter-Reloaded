@@ -15,6 +15,7 @@ along with AIONMeter.  If not, see <http://www.gnu.org/licenses/>.
 Hüseyin Uslu, <shalafiraistlin nospam gmail dot com> 
 */
 
+using AIONMeter.libs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -34,6 +35,8 @@ namespace AIONMeter
         public bool critical=false;
         private bool disposed = false;
 
+        private SkillsNotFoundTracker track = new SkillsNotFoundTracker();
+
         public Action(string _time, Player _who, Int32 _amount, string _target, string _skill, bool _critical)
         {
             LogWriter writer = LogWriter.Instance;
@@ -45,8 +48,15 @@ namespace AIONMeter
                 target = _target;
                 critical = _critical;
 
-                skill = (Skill)Skills.list[_skill];
+                try
+                {
+                    skill = (Skill)Skills.list[_skill];
+                } catch(Exception) {
+                    track.append(_skill);
+                }
                 writer.WriteToLog("Action.Action: " + time + " who:" + who + " target:" + target + " skill:" + skill);
+
+                writer.WriteToLog("Action.Action: skill.sub_type " + skill.sub_type);
 
                 switch (skill.sub_type)
                 {
@@ -77,7 +87,7 @@ namespace AIONMeter
             }
             catch (Exception e)
             {
-                writer.WriteToLog("Action.Action: >> Exception: time:" + _time + " who:" + who.name + " amount:" + _amount + " target:" + _target + " skill:" + _skill);
+                writer.WriteToLog("Action.Action: >> Exception:" + e.Message + " time:" + _time + " who:" + who.name + " amount:" + _amount + " target:" + _target + " skill:" + _skill);
             }
         }
 

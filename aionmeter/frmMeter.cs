@@ -280,12 +280,12 @@ namespace AIONMeter
                 case Meter.RENDER_MODE.render_damage:
                     damageDoneToolStripMenuItem.Checked = true;
                     healingToolStripMenuItem.Checked = false;
-                    this.Text = "AIONMeter [" + Properties.Resources.DamageDone + "]";
+				this.Text = "AIONMeter [" + Program.iniFile.IniReadValue ("filter", "DamageDone") + "]";
                     break;
                 case Meter.RENDER_MODE.render_healing:
                     damageDoneToolStripMenuItem.Checked = false;
                     healingToolStripMenuItem.Checked = true;
-                    this.Text = "AIONMeter [" + Properties.Resources.HealingDone + "]";
+				this.Text = "AIONMeter [" + Program.iniFile.IniReadValue ("filter", "HealingDone") + "]";
                     break;
             }
 

@@ -1,12 +1,9 @@
 ﻿<Properties StartupItem="aionmeter\AIONMeter.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="aionmeter\frmSplashscreen.resx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aionmeter\Group.cs">
     <Files>
-      <File FileName="aionmeter\Action.cs" Line="1" Column="1" />
-      <File FileName="aionmeter\Properties\AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="aionmeter\Properties\Resources.fr.resx" Line="22" Column="22" />
-      <File FileName="aionmeter\frmSplashscreen.Designer.cs" Line="102" Column="102" />
-      <File FileName="aionmeter\frmSplashscreen.resx" Line="41" Column="41" />
+      <File FileName="aionmeter\frmSplashscreen.Designer.cs" Line="2" Column="2" />
+      <File FileName="aionmeter\Group.cs" Line="36" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

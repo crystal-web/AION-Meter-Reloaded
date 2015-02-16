@@ -128,6 +128,7 @@
       <DependentUpon>frmSyncMacro.cs</DependentUpon>
     </Compile>
     <Compile Include="Group.cs" />
+    <Compile Include="libs\SkillsNotFoundTracker.cs" />
     <Compile Include="LiveTracker.cs" />
     <Compile Include="GraphEngine.cs" />
     <Compile Include="Meter.cs" />
@@ -412,7 +413,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="piechart.ico" />
-    <None Include="Resources\aionmeter-reloaded1.png" />
     <None Include="Resources\aionmeter-reloaded.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -423,7 +423,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Folder Include="libs\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

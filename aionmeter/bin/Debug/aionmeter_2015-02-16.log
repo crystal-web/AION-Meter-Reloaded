@@ -1,0 +1,162 @@
+12:35:11.134 	curVersion is greater, are you developper ? ^^
+12:35:11.136 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.4
+12:35:21.588 	Player.Player: You
+12:35:21.589 	PetTracker.PetTracker: init the structure
+12:35:21.638 	Meter.calculate_statistics
+12:35:21.638 	Meter.calculate_statistics: group not null and contains more 0
+12:35:21.638 	Meter.calculate_statistics: party_total: 0
+12:35:21.638 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:21.638 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+12:35:21.638 	Meter.calculate_statistics: percent: Non Numérique
+12:35:21.676 	GraphEngine.paint_meter: first switch value 0 0
+12:35:21.676 	GraphEngine.paint_meter: render damage
+12:35:22.618 	Meter.calculate_statistics
+12:35:22.618 	Meter.calculate_statistics: group not null and contains more 0
+12:35:22.618 	Meter.calculate_statistics: party_total: 0
+12:35:22.618 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:22.618 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+12:35:22.618 	Meter.calculate_statistics: percent: Non Numérique
+12:35:22.634 	GraphEngine.paint_meter: first switch value 0 0
+12:35:22.634 	GraphEngine.paint_meter: render damage
+12:35:23.634 	Meter.calculate_statistics
+12:35:23.634 	Meter.calculate_statistics: group not null and contains more 0
+12:35:23.634 	Meter.calculate_statistics: party_total: 0
+12:35:23.634 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:23.634 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+12:35:23.634 	Meter.calculate_statistics: percent: Non Numérique
+12:35:23.674 	GraphEngine.paint_meter: first switch value 0 0
+12:35:23.674 	GraphEngine.paint_meter: render damage
+12:35:24.650 	Meter.calculate_statistics
+12:35:24.650 	Meter.calculate_statistics: group not null and contains more 0
+12:35:24.650 	Meter.calculate_statistics: party_total: 0
+12:35:24.650 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:24.650 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+12:35:24.650 	Meter.calculate_statistics: percent: Non Numérique
+12:35:24.677 	GraphEngine.paint_meter: first switch value 0 0
+12:35:24.677 	GraphEngine.paint_meter: render damage
+12:35:25.661 	Meter.calculate_statistics
+12:35:25.661 	Meter.calculate_statistics: group not null and contains more 0
+12:35:25.661 	Meter.calculate_statistics: party_total: 0
+12:35:25.661 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:25.661 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+12:35:25.661 	Meter.calculate_statistics: percent: Non Numérique
+12:35:25.677 	GraphEngine.paint_meter: first switch value 0 0
+12:35:25.677 	GraphEngine.paint_meter: render damage
+12:35:26.043 	Filter.Run : 2015.02.16 12:35:26 : You inflicted 3.725 damage on Training Dummy by using Vacuum Choke IV. 
+12:35:26.050 	Filter.Run : Match > callback System.Text.RegularExpressions.GroupCollection
+12:35:26.051 	Meter.commit_damage
+12:35:26.051 	Meter.commit_action: 2015.02.16 12:35:26 who:You amout:3725 target:Training Dummy skill:Vacuum Choke IV
+12:35:26.052 	Meter.commit_action.group[who]: AIONMeter.Player
+12:35:26.072 	Action.Action: >> Exception:La clé donnée était absente du dictionnaire. time:2015.02.16 12:35:26 who:You amount:3725 target:Training Dummy skill:Vacuum Choke IV
+12:35:26.675 	Meter.calculate_statistics
+12:35:26.675 	Meter.calculate_statistics: group not null and contains more 0
+12:35:26.675 	Meter.calculate_statistics: party_total: 0
+12:35:26.675 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:26.718 	Meter.calculate_statistics: La référence d'objet n'est pas définie à une instance d'un objet.
+12:35:26.757 	GraphEngine.paint_meter: first switch value 0 0
+12:35:26.757 	GraphEngine.paint_meter: render damage
+12:35:27.687 	Meter.calculate_statistics
+12:35:27.687 	Meter.calculate_statistics: group not null and contains more 0
+12:35:27.687 	Meter.calculate_statistics: party_total: 0
+12:35:27.687 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:27.707 	Meter.calculate_statistics: La référence d'objet n'est pas définie à une instance d'un objet.
+12:35:27.727 	GraphEngine.paint_meter: first switch value 0 0
+12:35:27.727 	GraphEngine.paint_meter: render damage
+12:35:28.701 	Meter.calculate_statistics
+12:35:28.701 	Meter.calculate_statistics: group not null and contains more 0
+12:35:28.701 	Meter.calculate_statistics: party_total: 0
+12:35:28.701 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:28.719 	Meter.calculate_statistics: La référence d'objet n'est pas définie à une instance d'un objet.
+12:35:28.738 	GraphEngine.paint_meter: first switch value 0 0
+12:35:28.738 	GraphEngine.paint_meter: render damage
+12:35:29.718 	Meter.calculate_statistics
+12:35:29.718 	Meter.calculate_statistics: group not null and contains more 0
+12:35:29.718 	Meter.calculate_statistics: party_total: 0
+12:35:29.718 	Meter.calculate_statistics: DPS & HPS: 0 0
+12:35:29.739 	Meter.calculate_statistics: La référence d'objet n'est pas définie à une instance d'un objet.
+12:35:29.756 	GraphEngine.paint_meter: first switch value 0 0
+12:35:29.756 	GraphEngine.paint_meter: render damage
+02:03:46.451 	curVersion is greater, are you developper ? ^^
+02:03:46.454 	Running application guid:3b48a4dc-8c28-440a-a687-3c449676132c version:0.0.4.4
+02:03:56.890 	Player.Player: You
+02:03:56.891 	PetTracker.PetTracker: init the structure
+02:03:56.956 	Meter.calculate_statistics
+02:03:56.956 	Meter.calculate_statistics: group not null and contains more 0
+02:03:56.956 	Meter.calculate_statistics: party_total: 0
+02:03:56.956 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:03:56.956 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:03:56.956 	Meter.calculate_statistics: percent: Non Numérique
+02:03:56.978 	GraphEngine.paint_meter: first switch value 0 0
+02:03:56.978 	GraphEngine.paint_meter: render damage
+02:03:57.931 	Meter.calculate_statistics
+02:03:57.931 	Meter.calculate_statistics: group not null and contains more 0
+02:03:57.931 	Meter.calculate_statistics: party_total: 0
+02:03:57.931 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:03:57.931 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:03:57.931 	Meter.calculate_statistics: percent: Non Numérique
+02:03:57.957 	GraphEngine.paint_meter: first switch value 0 0
+02:03:57.957 	GraphEngine.paint_meter: render damage
+02:03:58.945 	Meter.calculate_statistics
+02:03:58.945 	Meter.calculate_statistics: group not null and contains more 0
+02:03:58.945 	Meter.calculate_statistics: party_total: 0
+02:03:58.945 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:03:58.945 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:03:58.945 	Meter.calculate_statistics: percent: Non Numérique
+02:03:58.975 	GraphEngine.paint_meter: first switch value 0 0
+02:03:58.975 	GraphEngine.paint_meter: render damage
+02:03:59.958 	Meter.calculate_statistics
+02:03:59.958 	Meter.calculate_statistics: group not null and contains more 0
+02:03:59.958 	Meter.calculate_statistics: party_total: 0
+02:03:59.958 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:03:59.958 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:03:59.958 	Meter.calculate_statistics: percent: Non Numérique
+02:03:59.972 	GraphEngine.paint_meter: first switch value 0 0
+02:03:59.972 	GraphEngine.paint_meter: render damage
+02:04:00.972 	Meter.calculate_statistics
+02:04:00.972 	Meter.calculate_statistics: group not null and contains more 0
+02:04:00.972 	Meter.calculate_statistics: party_total: 0
+02:04:00.973 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:00.973 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:00.973 	Meter.calculate_statistics: percent: Non Numérique
+02:04:00.988 	GraphEngine.paint_meter: first switch value 0 0
+02:04:00.989 	GraphEngine.paint_meter: render damage
+02:04:01.988 	Meter.calculate_statistics
+02:04:01.988 	Meter.calculate_statistics: group not null and contains more 0
+02:04:01.988 	Meter.calculate_statistics: party_total: 0
+02:04:01.988 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:01.988 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:01.988 	Meter.calculate_statistics: percent: Non Numérique
+02:04:02.007 	GraphEngine.paint_meter: first switch value 0 0
+02:04:02.008 	GraphEngine.paint_meter: render damage
+02:04:03.001 	Meter.calculate_statistics
+02:04:03.001 	Meter.calculate_statistics: group not null and contains more 0
+02:04:03.001 	Meter.calculate_statistics: party_total: 0
+02:04:03.001 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:03.001 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:03.001 	Meter.calculate_statistics: percent: Non Numérique
+02:04:03.015 	GraphEngine.paint_meter: first switch value 0 0
+02:04:03.015 	GraphEngine.paint_meter: render damage
+02:04:04.030 	Meter.calculate_statistics
+02:04:04.030 	Meter.calculate_statistics: group not null and contains more 0
+02:04:04.030 	Meter.calculate_statistics: party_total: 0
+02:04:04.030 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:04.030 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:04.030 	Meter.calculate_statistics: percent: Non Numérique
+02:04:04.048 	GraphEngine.paint_meter: first switch value 0 0
+02:04:04.048 	GraphEngine.paint_meter: render damage
+02:04:05.030 	Meter.calculate_statistics
+02:04:05.030 	Meter.calculate_statistics: group not null and contains more 0
+02:04:05.030 	Meter.calculate_statistics: party_total: 0
+02:04:05.030 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:05.030 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:05.030 	Meter.calculate_statistics: percent: Non Numérique
+02:04:05.061 	GraphEngine.paint_meter: first switch value 0 0
+02:04:05.061 	GraphEngine.paint_meter: render damage
+02:04:06.044 	Meter.calculate_statistics
+02:04:06.044 	Meter.calculate_statistics: group not null and contains more 0
+02:04:06.044 	Meter.calculate_statistics: party_total: 0
+02:04:06.044 	Meter.calculate_statistics: DPS & HPS: 0 0
+02:04:06.044 	Meter.calculate_statistics: burst DPS & burst HPS: 0 0
+02:04:06.044 	Meter.calculate_statistics: percent: Non Numérique
+02:04:06.087 	GraphEngine.paint_meter: first switch value 0 0
+02:04:06.087 	GraphEngine.paint_meter: render damage

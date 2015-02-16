@@ -35,6 +35,7 @@ namespace AIONMeter
         public static frmMeter main_window;
         public static Boolean logEvent = true;
         public static LogWriter writer = LogWriter.Instance;
+        public static string version = Application.ProductVersion;
 
         /// <summary>
         /// The main entry point for the application.
@@ -107,7 +108,8 @@ namespace AIONMeter
                 try { Thread.CurrentThread.CurrentUICulture = new CultureInfo(Config.get_language()); }
                 catch (Exception)
                 {
-                    MessageBox.Show("The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
+                    MessageBox.Show(
+						"The language " + Config.get_language() + " couldn't be loaded. Reverting culture to en-US.",
                         "Language Error",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);

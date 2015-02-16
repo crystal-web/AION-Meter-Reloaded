@@ -33,20 +33,21 @@
             // 
             // frmSplashscreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::AIONMeter.Properties.Resources.aionmeter_reloaded;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(301, 93);
+            this.AllowDrop = true;
+            //this.BackgroundImage = global::AIONMeter.Properties.Resources.aionmeter_reloaded;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(285, 55);
+            this.ControlBox = false;
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(301, 93);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(301, 93);
             this.Name = "frmSplashscreen";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmSplashscreen";
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.onMouseClickEvent);
+            this.UseWaitCursor = true;
             this.ResumeLayout(false);
 
         }

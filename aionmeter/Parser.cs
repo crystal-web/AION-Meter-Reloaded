@@ -45,35 +45,92 @@ namespace AIONMeter
             // Filter(string pattern, delegate_callback _callback, Boolean _combat_filter)
 
 
-            // damage filters
+		// damage filters
+            // FILTER_DIRECT_DAMAGE_SKILL 
             filters.Add(new Filter(
-				"(?<time>\\d{4}.\\d{2}.\\d{2} \\d{2}:\\d{2}:\\d{2}) : (?<critical>(Coup critique !)*)(?<who>.*?)( a| avez) infligé (?<amount>\\d+(.\\d{3})*) points de dégâts (|critiques )à (?<target>.*).", 
+                Program.iniFile.IniReadValue("filter", "FILTER_DIRECT_DAMAGE_SKILL"),
+                new Filter.delegate_callback(meter.commit_damage),
+                true)
+            );
+			// FILTER_DIRECT_DAMAGE
+            filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_DIRECT_DAMAGE"), 
                 new Filter.delegate_callback(meter.commit_damage),
                 true)
                 );
-            /*
-            filters.Add(new Filter(Properties.Resources.FILTER_DIRECT_DAMAGE, new Filter.delegate_callback(meter.commit_damage), true));
-            // damage overtime-effects filters
-            filters.Add(new Filter(Properties.Resources.FILTER_DOT, new Filter.delegate_callback(meter.commit_dot_effect), true));
-            // healing filters
-            filters.Add(new Filter(Properties.Resources.FILTER_DIRECT_HEALING_SKILL, new Filter.delegate_callback(meter.commit_healing), true));
-            filters.Add(new Filter(Properties.Resources.FILTER_DIRECT_HEALING, new Filter.delegate_callback(meter.commit_healing), true));
-            // healing over-time effects
-            filters.Add(new Filter(Properties.Resources.FILTER_HOT_1, new Filter.delegate_callback(meter.commit_hot_effect), true));
-            filters.Add(new Filter(Properties.Resources.FILTER_HOT_2, new Filter.delegate_callback(meter.commit_hot_effect), true));
-            // pet summons
-            filters.Add(new Filter(Properties.Resources.FILTER_SUMMON_1, new Filter.delegate_callback(meter.summon_pet), true));
-            filters.Add(new Filter(Properties.Resources.FILTER_SUMMON_2, new Filter.delegate_callback(meter.summon_pet), true));
+            
+			// FILTER_DOT
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_DOT"), 
+				new Filter.delegate_callback(meter.commit_dot_effect),
+				true)
+			);
+        /*
+		// healing filters
+			// FILTER_DIRECT_HEALING
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_DIRECT_HEALING"), 
+				new Filter.delegate_callback(meter.commit_damage),
+				true)
+			);
+			// FILTER_DIRECT_HEALING_SKILL
+			//filters.Add(new Filter(
+			//	Program.iniFile.IniReadValue ("filter", "FILTER_DIRECT_HEALING_SKILL"), 
+		    //	new Filter.delegate_callback(meter.commit_healing),
+			//	true)
+			//);
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_HOT_1"), 
+				new Filter.delegate_callback(meter.commit_hot_effect),
+				true)
+			);
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_HOT_2"), 
+				new Filter.delegate_callback(meter.commit_hot_effect),
+				true)
+			);
 
-            // Group-awareness filters
-            filters.Add(new Filter(Properties.Resources.FILTER_PLAYER_ONLINE, new Filter.delegate_callback(meter.player_online)));
-            filters.Add(new Filter(Properties.Resources.FILTER_PLAYER_JOIN_GROUP, new Filter.delegate_callback(meter.group_message)));
-            filters.Add(new Filter(Properties.Resources.FILTER_PLAYER_LEFT_GROUP, new Filter.delegate_callback(meter.member_left)));
-            filters.Add(new Filter(Properties.Resources.FILTER_PLAYER_KICKED, new Filter.delegate_callback(meter.member_left)));
-            filters.Add(new Filter(Properties.Resources.FILTER_GROUP_DISBAND, new Filter.delegate_callback(meter.group_disbanded)));
-            filters.Add(new Filter(Properties.Resources.FILTER_GROUP_MESSAGE, new Filter.delegate_callback(meter.group_message)));
-            filters.Add(new Filter(Properties.Resources.FILTER_SELF_MESSAGE, new Filter.delegate_callback(meter.self_message))); 
-            //*/
+
+		// pet summons
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_SUMMON_1"),
+				new Filter.delegate_callback(meter.summon_pet),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_SUMMON_2"),
+				new Filter.delegate_callback(meter.summon_pet),
+				true));
+
+		// Group-awareness filters
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_PLAYER_ONLINE"),
+				new Filter.delegate_callback(meter.player_online),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_PLAYER_JOIN_GROUP"),
+				new Filter.delegate_callback(meter.group_message),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_PLAYER_LEFT_GROUP"),
+				new Filter.delegate_callback(meter.member_left),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_PLAYER_KICKED"),
+				new Filter.delegate_callback(meter.member_left),
+				true));
+
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_GROUP_DISBAND"),
+				new Filter.delegate_callback(meter.group_disbanded),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_GROUP_MESSAGE"),
+				new Filter.delegate_callback(meter.group_message),
+				true));
+			filters.Add(new Filter(
+				Program.iniFile.IniReadValue ("filter", "FILTER_SELF_MESSAGE"),
+				new Filter.delegate_callback(meter.self_message),
+				true));//*/
         }
 
         public void parse_line(string line)

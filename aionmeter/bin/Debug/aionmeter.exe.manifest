@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aionmeter.exe" size="1059776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aionmeter.exe" size="1060288">
       <assemblyIdentity name="aionmeter" version="0.0.4.4" publicKeyToken="9B585A9E37D14711" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qsurxu7oU/+//UNIoWuNA0Jr3+it+y3EwjDGsewS8FM=</dsig:DigestValue>
+        <dsig:DigestValue>nsLClEkfI0MLquJrZa3pZmE7K04Dld8LfKC4Nlv6lQE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>anfXLmvpnjaiQOj5316ck71pd2860zF+UoZv4WsqbY4=</dsig:DigestValue>
+        <dsig:DigestValue>vCBdFw7bv0HzRBkEwD4wUkWqoWdF9zl3z/+1q5xIX0g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tAA8l0/1wJUktnBvFg+76FLP4ZT5d04LDrv8hdlYG9w=</dsig:DigestValue>
+        <dsig:DigestValue>jFCstc2mjKnpHE1w9Yo4I88pH+5EIBA0Bu31WbysNWw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

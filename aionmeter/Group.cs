@@ -39,7 +39,7 @@ namespace AIONMeter
         public Group()
         {
             members = new Hashtable();
-            members.Add(Properties.Resources.You, new Player(Properties.Resources.You));
+            members.Add(Program.iniFile.IniReadValue("i18n", "You"), new Player(Program.iniFile.IniReadValue("i18n", "You")));
         }
 
         public Player this[string name] // the indexer
@@ -76,7 +76,7 @@ namespace AIONMeter
 
             foreach (Player player in members.Values) // we have to keep a second list as members_to_deleted list, as deleting items while traversing collection is not possible
             {
-                if (player.name != Properties.Resources.You) members_to_remove.Add(player);
+                if (player.name != Program.iniFile.IniReadValue("i18n", "You")) members_to_remove.Add(player);
             }
             foreach (Player player in members_to_remove)
             {
@@ -97,7 +97,7 @@ namespace AIONMeter
 
         public void leave(String name)
         {
-            if (name != Properties.Resources.You)
+            if (name != Program.iniFile.IniReadValue("i18n", "You"))
             {
                 try
                 {

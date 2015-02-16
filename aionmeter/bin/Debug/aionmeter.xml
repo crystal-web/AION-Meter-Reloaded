@@ -118,120 +118,120 @@
             Test is administrator ?
             app.manifest include ?
         </member>
-        <member name="T:AIONMeter.Properties.Resources">
+        <member name="T:AIONMeter.Resources">
             <summary>
-              A strongly-typed resource class, for looking up localized strings, etc.
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.ResourceManager">
+        <member name="P:AIONMeter.Resources.ResourceManager">
             <summary>
-              Returns the cached ResourceManager instance used by this class.
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.Culture">
+        <member name="P:AIONMeter.Resources.Culture">
             <summary>
-              Overrides the current thread's CurrentUICulture property for all
-              resource lookups using this strongly typed resource class.
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.aionmeter_reloaded">
+        <member name="P:AIONMeter.Resources.aionmeter_reloaded">
             <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.DamageDone">
+        <member name="P:AIONMeter.Resources.DamageDone">
             <summary>
-              Looks up a localized string similar to Damage Done.
+              Recherche une chaîne localisée semblable à Damage Done.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_DAMAGE">
+        <member name="P:AIONMeter.Resources.FILTER_DIRECT_DAMAGE">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_DAMAGE_SKILL">
+        <member name="P:AIONMeter.Resources.FILTER_DIRECT_DAMAGE_SKILL">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_HEALING">
+        <member name="P:AIONMeter.Resources.FILTER_DIRECT_HEALING">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_DIRECT_HEALING_SKILL">
+        <member name="P:AIONMeter.Resources.FILTER_DIRECT_HEALING_SKILL">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_DOT">
+        <member name="P:AIONMeter.Resources.FILTER_DOT">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) received (?&lt;amount&gt;\d+(.\d{3})*) damage due to the effect of (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) received (?&lt;amount&gt;\d+(.\d{3})*) damage due to the effect of (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_GROUP_DISBAND">
+        <member name="P:AIONMeter.Resources.FILTER_GROUP_DISBAND">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (You left the group|The group has been disbanded)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (You left the group|The group has been disbanded)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_GROUP_MESSAGE">
+        <member name="P:AIONMeter.Resources.FILTER_GROUP_MESSAGE">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*).
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*).
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_HOT_1">
+        <member name="P:AIONMeter.Resources.FILTER_HOT_1">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_HOT_2">
+        <member name="P:AIONMeter.Resources.FILTER_HOT_2">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)&apos;s HP by using (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)&apos;s HP by using (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_JOIN_GROUP">
+        <member name="P:AIONMeter.Resources.FILTER_PLAYER_JOIN_GROUP">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_KICKED">
+        <member name="P:AIONMeter.Resources.FILTER_PLAYER_KICKED">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_LEFT_GROUP">
+        <member name="P:AIONMeter.Resources.FILTER_PLAYER_LEFT_GROUP">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_PLAYER_ONLINE">
+        <member name="P:AIONMeter.Resources.FILTER_PLAYER_ONLINE">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_SELF_MESSAGE">
+        <member name="P:AIONMeter.Resources.FILTER_SELF_MESSAGE">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) (?&lt;message&gt;.*).
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) (?&lt;message&gt;.*).
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_SUMMON_1">
+        <member name="P:AIONMeter.Resources.FILTER_SUMMON_1">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*?) to let it attack (.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*?) to let it attack (.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.FILTER_SUMMON_2">
+        <member name="P:AIONMeter.Resources.FILTER_SUMMON_2">
             <summary>
-              Looks up a localized string similar to (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
+              Recherche une chaîne localisée semblable à (?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*)..
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.HealingDone">
+        <member name="P:AIONMeter.Resources.HealingDone">
             <summary>
-              Looks up a localized string similar to Healing Done.
+              Recherche une chaîne localisée semblable à Healing Done.
             </summary>
         </member>
-        <member name="P:AIONMeter.Properties.Resources.You">
+        <member name="P:AIONMeter.Resources.You">
             <summary>
-              Looks up a localized string similar to You.
+              Recherche une chaîne localisée semblable à You.
             </summary>
         </member>
         <member name="T:AIONMeter.Textures">

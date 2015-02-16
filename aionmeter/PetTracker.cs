@@ -62,7 +62,7 @@ namespace AIONMeter
             LogWriter writer = LogWriter.Instance;
             writer.WriteToLog("PetTracker.commit_pet_action: " + time + " who:" + who + " amout:" + amount + " target:" + target + " skill:" + skill + " active_pets.Count:" + active_pets.Count);
 
-            if (Properties.Resources.You == who && (active_pets == null || active_pets.Count == 0) )
+            if (Program.iniFile.IniReadValue("i18n", "You") == who && (active_pets == null || active_pets.Count == 0))
             {
                 track(new Pet(who, new Player(who)));
                 // track(who, new Player(who));

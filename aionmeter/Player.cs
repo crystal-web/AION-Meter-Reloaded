@@ -50,7 +50,8 @@ namespace AIONMeter
 
             this.name = name;
             details = new List<Action>();
-            if (name == Properties.Resources.You) {
+            if (name == Program.iniFile.IniReadValue("i18n", "You"))
+            {
                 color = System.Drawing.ColorTranslator.FromHtml("#8F1327");
             }
             else

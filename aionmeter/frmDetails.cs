@@ -49,8 +49,6 @@ namespace AIONMeter
         {
             listView.Items.Clear();
 
-            
-
 
             string name = combobox_players.Items[combobox_players.SelectedIndex].ToString();
             Player player = (Player)Meter.active_meter.group[name];

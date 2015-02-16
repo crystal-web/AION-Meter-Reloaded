@@ -210,7 +210,7 @@ namespace AIONMeter
             group.reset();
             try
             {
-                group[Properties.Resources.You].Clear(); // clear the players statistics
+                group[Program.iniFile.IniReadValue("i18n", "You")].Clear(); // clear the players statistics
             }
             catch (Exception) { }
         }
@@ -344,6 +344,7 @@ namespace AIONMeter
                 critical = true;
             }
             string target = matches["target"].Value.Trim();
+            target = target.Replace('.', ' ').Trim(); // fix ending .
             string skill = matches["skill"].Value.Trim();
             skill = skill.Replace('.', ' ').Trim(); // fix ending .
 
