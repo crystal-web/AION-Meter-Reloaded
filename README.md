@@ -21,3 +21,5 @@ Vous pouvez soutenir le développement du projet;
 
 ## Statut du developpement
 ![Status](https://img.shields.io/badge/build-faild-red.svg?style=plastic)
+
+Recrutement sur [![socialITbutton](https://img.shields.io/badge/social-IT-blue.svg?style=plastic)](http://devphp.me/index.php?r=space/space&sguid=11d67233-efd8-4251-adf1-38d7abdc9080 "Réseau social de l'IT")
